@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Appendery definiują gdzie logi mają być wysłane -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n "></PatternLayout>
+            <!-- [%t] - wątek; %-5level - poziom logowania; %logger{36} - nazwa loggera (max 36 znaków); %msg - wiadomość -->
+        </Console>
+        <File name="File" fileName="logs/app.log">
+            <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss} [%p] %c{1} - %m%n"/>
+            <!-- [%p] - poziom logowania; %c{1} - nazwa loggera (tylko ostatnia część); %m - wiadomość  -->
+        </File>
+    </Appenders>
+    <Loggers>
+        <!-- Loggery rejestrują wiadomości -->
+        <Root level="DEBUG">
+            <AppenderRef ref = "Console"/>
+            <AppenderRef ref = "File"/>
+        </Root>
+    </Loggers>
+</Configuration>

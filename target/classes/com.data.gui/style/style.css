@@ -1,0 +1,44 @@
+
+#searchLabel {
+    -fx-background-color: rgb(220,220,220);
+    -fx-background-radius: 10;
+    -fx-padding: 5; /* Odstępy, dostosuj według potrzeb */
+}
+
+#searchField {
+    -fx-background-color: rgb(255,255,255);
+    -fx-background-radius: 10;
+    -fx-padding: 5; /* Odstępy, dostosuj według potrzeb */
+}
+
+#searchButton {
+    -fx-background-radius: 10;
+    -fx-padding: 5; /* Odstępy, dostosuj według potrzeb */
+}
+
+.squareBox{
+    -fx-background-color: rgb(220,220,220);
+    -fx-background-radius: 10;
+    -fx-padding: 5; /* Odstępy, dostosuj według potrzeb */
+}
+
+.favourites {
+    -fx-background-color: rgb(255,255,255);
+    -fx-background-radius: 10;
+    -fx-padding: 5; /* Odstępy, dostosuj według potrzeb */
+}
+
+#FavouritesLabel {
+    -fx-font-size: 24;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+
+.buttonClass {
+    -fx-background-color: rgb(47,147,255);
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-text-fill: white;
+}
+
+#CoinLabel {
+    -fx-padding: 0 0 0 20; /* góra prawo dół lewo */
+}

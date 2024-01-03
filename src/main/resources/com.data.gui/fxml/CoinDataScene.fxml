@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="571.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.data.gui.CoinDataSceneController">
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="608.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label fx:id="CoinLabel" layoutX="13.0" layoutY="38.0" prefHeight="55.0" prefWidth="582.0" styleClass="squareBox" stylesheets="@../style/style.css">
+         <font>
+            <Font name="Arial Black" size="29.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <TextField fx:id="crypto_id" layoutX="48.0" layoutY="45.0" prefHeight="39.0" prefWidth="130.0" styleClass="squareBox" stylesheets="@../style/style.css" text="BTC - USD">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="crypto_price" layoutX="251.0" layoutY="47.0" prefHeight="34.0" prefWidth="114.0" styleClass="squareBox" stylesheets="@../style/style.css" text="\$518.25">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="crypto_change" layoutX="414.0" layoutY="45.0" prefHeight="38.0" prefWidth="171.0" styleClass="squareBox" stylesheets="@../style/style.css" text="-2.70 (2.29%)">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="11.0" layoutY="301.0" prefHeight="222.0" prefWidth="582.0" styleClass="squareBox" stylesheets="@../style/style.css" text="CHART" />
+      <TextField fx:id="atl_field" alignment="CENTER" layoutX="382.0" layoutY="99.0" prefHeight="26.0" prefWidth="212.0" styleClass="squareBox" stylesheets="@../style/style.css" text="ATL:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ath_field" alignment="CENTER" layoutX="15.0" layoutY="98.0" prefHeight="26.0" prefWidth="212.0" styleClass="squareBox" stylesheets="@../style/style.css" text="ATH:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="market_cap_field" alignment="CENTER" layoutX="15.0" layoutY="159.0" prefHeight="26.0" prefWidth="212.0" styleClass="squareBox" stylesheets="@../style/style.css" text="MARKET CAP:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="market_cap_rank_field" alignment="CENTER" layoutX="382.0" layoutY="160.0" prefHeight="26.0" prefWidth="212.0" styleClass="squareBox" stylesheets="@../style/style.css" text="MARKET CAP RANK:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="high_24_field" alignment="CENTER" layoutX="15.0" layoutY="224.0" prefHeight="26.0" prefWidth="212.0" styleClass="squareBox" stylesheets="@../style/style.css" text="HIGH_24H:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="low_24_field" alignment="CENTER" layoutX="382.0" layoutY="225.0" prefHeight="26.0" prefWidth="212.0" styleClass="squareBox" stylesheets="@../style/style.css" text="LOW_24H:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="CryptoSymbol" fitHeight="110.0" fitWidth="130.0" layoutX="239.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="atl_value" layoutX="382.0" layoutY="129.0" prefHeight="26.0" prefWidth="212.0" styleClass="favourites" stylesheets="@../style/style.css">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ath_value" layoutX="15.0" layoutY="128.0" prefHeight="26.0" prefWidth="212.0" styleClass="favourites" stylesheets="@../style/style.css">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="market_cap_value" layoutX="15.0" layoutY="193.0" prefHeight="26.0" prefWidth="212.0" styleClass="favourites" stylesheets="@../style/style.css">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="market_cap_rank_value" layoutX="382.0" layoutY="194.0" prefHeight="26.0" prefWidth="212.0" styleClass="favourites" stylesheets="@../style/style.css">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="high_24h_value" layoutX="15.0" layoutY="255.0" prefHeight="26.0" prefWidth="212.0" styleClass="favourites" stylesheets="@../style/style.css">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="low_24h_value" layoutX="382.0" layoutY="256.0" prefHeight="26.0" prefWidth="212.0" styleClass="favourites" stylesheets="@../style/style.css">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="back_button" layoutX="11.0" layoutY="533.0" mnemonicParsing="false" onAction="#getBack" styleClass="buttonClass" stylesheets="@../style/style.css" text="Back" />
+      <ImageView fx:id="triangle_symbol" fitHeight="23.0" fitWidth="24.0" layoutX="390.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
