@@ -48,7 +48,7 @@ public class LoginSceneController {
         String username = UsernameField.getText();
         String password = PasswordField.getText();
 
-        if (username.equals("student") && (password.equals("student"))) {
+//        if (username.equals("student") && (password.equals("student"))) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/com.data.gui/fxml/MainScene.fxml"));
 
             root = loader.load();
@@ -56,16 +56,17 @@ public class LoginSceneController {
 
             MainSceneController mainSceneController = loader.getController();
             mainSceneController.setStage(stage);
+
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
 
-        } else {
-            InvalidLabel.setVisible(true);
-            UsernameField.setText("");
-            PasswordField.setText("");
+//        } else {
+//            InvalidLabel.setVisible(true);
+//            UsernameField.setText("");
+//            PasswordField.setText("");
         }
-    }
+//    }
     public void setStage(Stage stage) {
         this.stage = stage;
     }

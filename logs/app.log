@@ -1,1 +1,1639 @@
 
+04-01-2024 11:35:07 [DEBUG] Currency - Initializing Currency object for identifier: usd
+04-01-2024 11:35:07 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 11:35:07 [DEBUG] Currency - Initializing Currency list for identifier: usd
+04-01-2024 11:35:07 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:35:07 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:35:07 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:35:07 [INFO] Currency - Currency: usd found!
+04-01-2024 11:38:16 [DEBUG] Currency - Initializing Currency object for identifier: usd
+04-01-2024 11:38:16 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 11:38:16 [DEBUG] Currency - Initializing Currency list for identifier: usd
+04-01-2024 11:38:16 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:38:16 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:38:16 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:38:16 [INFO] Currency - Currency: usd found!
+04-01-2024 11:38:16 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:38:16 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:38:16 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:40:15 [DEBUG] Currency - Initializing Currency object for identifier: usd
+04-01-2024 11:40:15 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 11:40:15 [DEBUG] Currency - Initializing Currency list for identifier: usd
+04-01-2024 11:40:15 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:40:15 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:40:15 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:40:15 [INFO] Currency - Currency: usd found!
+04-01-2024 11:40:15 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:40:15 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:40:15 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:40:25 [DEBUG] Currency - Initializing Currency object for identifier: usd
+04-01-2024 11:40:25 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 11:40:25 [DEBUG] Currency - Initializing Currency list for identifier: usd
+04-01-2024 11:40:25 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:40:25 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:40:25 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:40:25 [INFO] Currency - Currency: usd found!
+04-01-2024 11:40:25 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:40:25 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:40:25 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:56:30 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:56:30 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:56:30 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:56:30 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:56:30 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:56:30 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:57:21 [DEBUG] Currency - Initializing Currency object for identifier: usd
+04-01-2024 11:57:21 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 11:57:21 [DEBUG] Currency - Initializing Currency list for identifier: usd
+04-01-2024 11:57:21 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:57:21 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:57:21 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:57:21 [INFO] Currency - Currency: usd found!
+04-01-2024 11:57:21 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:57:21 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:57:21 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 11:59:52 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 11:59:52 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 11:59:52 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:03:34 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:03:34 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:03:34 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:06:50 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:06:50 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:06:50 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:13:31 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:13:31 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:13:31 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:13:43 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:13:43 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:13:43 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:15:34 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:15:34 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:15:34 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:16:49 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:16:49 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:16:49 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:20:23 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:20:23 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:20:23 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:22:09 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:22:09 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:22:09 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:25:42 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:25:42 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:25:42 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:26:38 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:26:38 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:26:38 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:28:56 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:28:56 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:28:56 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:30:29 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:30:29 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:30:29 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:38:13 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:38:13 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:38:13 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:38:21 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:38:21 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:38:21 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:39:48 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:39:48 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:39:48 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:39:52 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:39:52 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:39:52 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:41:55 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:41:55 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:41:55 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:43:26 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:43:26 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:43:26 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:45:22 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:45:22 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:45:22 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:45:46 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:45:46 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:45:46 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:45:54 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:45:54 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:45:54 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 12:56:55 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 12:56:55 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 12:56:55 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:07:55 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 13:07:55 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 13:07:55 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 13:07:55 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:07:55 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:07:55 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:07:55 [INFO] Currency - Currency: USD found!
+04-01-2024 13:07:55 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 13:07:56 [DEBUG] ApiClient - Response code: 200
+04-01-2024 13:07:56 [INFO] ApiClient - Connection established
+04-01-2024 13:07:56 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 13:07:56 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 13:07:56 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:07:56 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:07:56 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 13:10:55 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 13:10:55 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 13:10:55 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 13:10:55 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:10:55 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:10:55 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:10:55 [INFO] Currency - Currency: USD found!
+04-01-2024 13:10:55 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 13:10:55 [DEBUG] ApiClient - Response code: 200
+04-01-2024 13:10:55 [INFO] ApiClient - Connection established
+04-01-2024 13:10:55 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 13:10:55 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 13:10:55 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:10:55 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:10:55 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 13:13:09 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 13:13:09 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 13:13:09 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 13:13:09 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:13:09 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:13:09 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:13:09 [INFO] Currency - Currency: USD found!
+04-01-2024 13:13:09 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 13:13:09 [DEBUG] ApiClient - Response code: 200
+04-01-2024 13:13:09 [INFO] ApiClient - Connection established
+04-01-2024 13:13:09 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 13:13:09 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 13:13:09 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:13:09 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:13:09 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 13:16:09 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 13:16:09 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 13:16:09 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 13:16:09 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:16:09 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:16:09 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:16:09 [INFO] Currency - Currency: USD found!
+04-01-2024 13:16:09 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 13:16:09 [DEBUG] ApiClient - Response code: 200
+04-01-2024 13:16:09 [INFO] ApiClient - Connection established
+04-01-2024 13:16:09 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 13:16:09 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 13:16:09 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:16:09 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:16:09 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 13:32:33 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:32:33 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:32:33 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:35:39 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:35:39 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:35:39 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:39:35 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:39:35 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:39:35 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:39:46 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 13:39:46 [DEBUG] ApiClient - Response code: 200
+04-01-2024 13:39:46 [INFO] ApiClient - Connection established
+04-01-2024 13:39:46 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 13:39:46 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 13:39:46 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:39:46 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:39:46 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 13:40:53 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:40:53 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:40:53 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:41:01 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 13:41:01 [DEBUG] ApiClient - Response code: 200
+04-01-2024 13:41:01 [INFO] ApiClient - Connection established
+04-01-2024 13:41:01 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 13:41:01 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 13:41:01 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:41:01 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:41:01 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 13:45:45 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:45:45 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:45:45 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:45:54 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aud&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 13:45:54 [DEBUG] ApiClient - Response code: 200
+04-01-2024 13:45:54 [INFO] ApiClient - Connection established
+04-01-2024 13:45:54 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 13:45:54 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 13:45:54 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:45:54 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:45:54 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 13:46:24 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:46:24 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:46:24 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:46:39 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 13:46:39 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 13:46:39 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:46:39 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:46:39 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 13:47:14 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:47:14 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:47:14 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:47:20 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 13:47:20 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 13:47:20 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:47:20 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:47:20 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 13:47:53 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:47:53 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:47:53 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:48:11 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 13:48:11 [DEBUG] ApiClient - Response code: 200
+04-01-2024 13:48:11 [INFO] ApiClient - Connection established
+04-01-2024 13:48:11 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 13:48:11 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 13:48:11 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:48:11 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:48:11 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 13:49:43 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:49:43 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:49:43 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:54:06 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 13:54:06 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 13:54:06 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 13:54:15 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 13:54:15 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 13:54:15 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 13:54:15 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 13:54:15 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:00:27 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:00:27 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:00:27 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:00:35 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:00:35 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:00:35 [INFO] ApiClient - Connection established
+04-01-2024 14:00:35 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:00:35 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:00:35 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:00:35 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:00:35 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:00:43 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:00:44 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:00:44 [INFO] ApiClient - Connection established
+04-01-2024 14:00:44 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:00:44 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:00:44 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:00:44 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:00:44 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:01:29 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:01:29 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:01:29 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:01:35 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:01:35 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:01:35 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:01:35 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:01:35 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:01:45 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:01:45 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:01:45 [INFO] ApiClient - Connection established
+04-01-2024 14:01:45 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:01:45 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:01:45 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:01:45 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:01:45 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:02:38 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:02:38 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:02:38 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:02:45 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:02:45 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:02:45 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:02:45 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:02:45 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:04:03 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:04:03 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:04:03 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:04:09 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aud&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:04:10 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:04:10 [INFO] ApiClient - Connection established
+04-01-2024 14:04:10 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:04:10 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 14:04:10 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:04:10 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:04:10 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 14:04:44 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:04:44 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:04:44 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:04:51 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aed&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:04:51 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:04:51 [INFO] ApiClient - Connection established
+04-01-2024 14:04:51 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:04:51 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 14:04:51 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:04:51 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:04:51 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 14:11:41 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:11:41 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:11:41 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:11:47 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:11:47 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 14:11:47 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:11:47 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:11:47 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 14:15:55 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:15:55 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:15:55 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:16:02 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:16:02 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 14:16:02 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:16:02 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:16:02 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 14:36:29 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:36:29 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:36:29 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:36:34 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:36:34 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:36:34 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:36:34 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:36:34 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:37:26 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:37:26 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:37:26 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:37:31 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:37:31 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:37:31 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:37:31 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:37:31 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:37:48 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:37:48 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:37:48 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:37:53 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:37:53 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 14:37:53 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:37:53 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:37:53 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 14:42:18 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 14:42:18 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 14:42:18 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 14:42:18 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:42:18 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:42:18 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:42:18 [INFO] Currency - Currency: USD found!
+04-01-2024 14:42:18 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:42:18 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:42:18 [INFO] ApiClient - Connection established
+04-01-2024 14:42:18 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:42:18 [DEBUG] MarketData - Initializing MarketData for identifier: etdh
+04-01-2024 14:42:18 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:42:18 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:42:18 [ERROR] MarketData - Market for identifier:etdh not found
+04-01-2024 14:42:18 [WARN] MarketData - No data found for identifier: etdh
+04-01-2024 14:42:34 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 14:42:34 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 14:42:34 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 14:42:34 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:42:34 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:42:34 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:42:34 [INFO] Currency - Currency: USD found!
+04-01-2024 14:42:34 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:42:34 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:42:34 [INFO] ApiClient - Connection established
+04-01-2024 14:42:34 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:42:34 [DEBUG] MarketData - Initializing MarketData for identifier: etdh
+04-01-2024 14:42:34 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:42:34 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:42:34 [ERROR] MarketData - Market for identifier:etdh not found
+04-01-2024 14:42:34 [WARN] MarketData - No data found for identifier: etdh
+04-01-2024 14:42:57 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 14:42:57 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 14:42:57 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 14:42:57 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:42:57 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:42:57 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:42:57 [INFO] Currency - Currency: USD found!
+04-01-2024 14:42:57 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:42:57 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:42:57 [INFO] ApiClient - Connection established
+04-01-2024 14:42:57 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:42:57 [DEBUG] MarketData - Initializing MarketData for identifier: etdh
+04-01-2024 14:42:57 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:42:57 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:42:57 [ERROR] MarketData - Market for identifier:etdh not found
+04-01-2024 14:42:57 [WARN] MarketData - No data found for identifier: etdh
+04-01-2024 14:43:06 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 14:43:06 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 14:43:06 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 14:43:06 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:43:06 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:43:06 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:43:06 [INFO] Currency - Currency: USD found!
+04-01-2024 14:43:06 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:43:06 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:43:06 [INFO] ApiClient - Connection established
+04-01-2024 14:43:06 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:43:06 [DEBUG] MarketData - Initializing MarketData for identifier: etdh
+04-01-2024 14:43:06 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:43:06 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:43:06 [ERROR] MarketData - Market for identifier:etdh not found
+04-01-2024 14:43:06 [WARN] MarketData - No data found for identifier: etdh
+04-01-2024 14:48:39 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:48:39 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:48:39 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:48:42 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:48:42 [DEBUG] MarketData - Initializing MarketData for identifier: asdasd
+04-01-2024 14:48:42 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:48:42 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:48:42 [ERROR] MarketData - Market for identifier:asdasd not found
+04-01-2024 14:48:42 [WARN] MarketData - No data found for identifier: asdasd
+04-01-2024 14:48:46 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:48:46 [DEBUG] MarketData - Initializing MarketData for identifier: asdasd
+04-01-2024 14:48:46 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:48:46 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:48:46 [ERROR] MarketData - Market for identifier:asdasd not found
+04-01-2024 14:48:46 [WARN] MarketData - No data found for identifier: asdasd
+04-01-2024 14:48:51 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:48:51 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:48:51 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:48:51 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:48:51 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:48:51 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:48:51 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 14:48:51 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:48:51 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:48:51 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 14:48:55 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:48:55 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:48:55 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:50:03 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:50:03 [DEBUG] MarketData - Initializing MarketData for identifier: asldkjaslkdj
+04-01-2024 14:50:03 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:50:03 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:50:03 [ERROR] MarketData - Market for identifier:asldkjaslkdj not found
+04-01-2024 14:50:03 [WARN] MarketData - No data found for identifier: asldkjaslkdj
+04-01-2024 14:50:04 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:50:04 [DEBUG] MarketData - Initializing MarketData for identifier: asldkjaslkdj
+04-01-2024 14:50:04 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:50:04 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:50:04 [ERROR] MarketData - Market for identifier:asldkjaslkdj not found
+04-01-2024 14:50:04 [WARN] MarketData - No data found for identifier: asldkjaslkdj
+04-01-2024 14:50:04 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:50:04 [DEBUG] MarketData - Initializing MarketData for identifier: asldkjaslkdj
+04-01-2024 14:50:04 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:50:04 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:50:04 [ERROR] MarketData - Market for identifier:asldkjaslkdj not found
+04-01-2024 14:50:04 [WARN] MarketData - No data found for identifier: asldkjaslkdj
+04-01-2024 14:50:04 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:50:04 [DEBUG] MarketData - Initializing MarketData for identifier: asldkjaslkdj
+04-01-2024 14:50:04 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:50:04 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:50:04 [ERROR] MarketData - Market for identifier:asldkjaslkdj not found
+04-01-2024 14:50:04 [WARN] MarketData - No data found for identifier: asldkjaslkdj
+04-01-2024 14:50:06 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aud&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:53:53 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:53:53 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:53:53 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:53:56 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:53:56 [DEBUG] MarketData - Initializing MarketData for identifier: sdf
+04-01-2024 14:53:56 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:53:56 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:53:56 [ERROR] MarketData - Market for identifier:sdf not found
+04-01-2024 14:53:56 [WARN] MarketData - No data found for identifier: sdf
+04-01-2024 14:54:30 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:54:30 [DEBUG] MarketData - Initializing MarketData for identifier: asdds
+04-01-2024 14:54:30 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:54:30 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:54:30 [ERROR] MarketData - Market for identifier:asdds not found
+04-01-2024 14:54:30 [WARN] MarketData - No data found for identifier: asdds
+04-01-2024 14:54:50 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 14:54:50 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 14:54:50 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 14:54:50 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:54:50 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:54:50 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:54:50 [INFO] Currency - Currency: USD found!
+04-01-2024 14:54:50 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 14:54:50 [DEBUG] ApiClient - Response code: 200
+04-01-2024 14:54:50 [INFO] ApiClient - Connection established
+04-01-2024 14:54:50 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 14:54:50 [DEBUG] MarketData - Initializing MarketData for identifier: etdh
+04-01-2024 14:54:50 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:54:50 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:54:50 [ERROR] MarketData - Market for identifier:etdh not found
+04-01-2024 14:54:50 [WARN] MarketData - No data found for identifier: etdh
+04-01-2024 14:55:49 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:55:49 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:55:49 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:55:53 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:55:53 [DEBUG] MarketData - Initializing MarketData for identifier: asdasd
+04-01-2024 14:55:53 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:55:53 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:55:53 [ERROR] MarketData - Market for identifier:asdasd not found
+04-01-2024 14:55:53 [WARN] MarketData - No data found for identifier: asdasd
+04-01-2024 14:57:46 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 14:57:46 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 14:57:46 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 14:57:46 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:57:46 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:57:46 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:57:46 [INFO] Currency - Currency: USD found!
+04-01-2024 14:57:46 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:57:46 [DEBUG] MarketData - Initializing MarketData for identifier: etdfgdh
+04-01-2024 14:57:46 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:57:46 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:57:46 [ERROR] MarketData - Market for identifier:etdfgdh not found
+04-01-2024 14:57:46 [WARN] MarketData - No data found for identifier: etdfgdh
+04-01-2024 14:58:09 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 14:58:09 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 14:58:09 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 14:58:09 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:58:09 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:58:09 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:58:09 [INFO] Currency - Currency: USD found!
+04-01-2024 14:58:09 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:58:09 [DEBUG] MarketData - Initializing MarketData for identifier: etdfgdh
+04-01-2024 14:58:09 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:58:09 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:58:09 [ERROR] MarketData - Market for identifier:etdfgdh not found
+04-01-2024 14:58:09 [WARN] MarketData - No data found for identifier: etdfgdh
+04-01-2024 14:58:16 [DEBUG] Currency - Initializing Currency object for identifier: USD
+04-01-2024 14:58:16 [INFO] ApiClient - Cache file exists: src/cache/currency_list_cache.json
+04-01-2024 14:58:16 [DEBUG] Currency - Initializing Currency list for identifier: USD
+04-01-2024 14:58:16 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:58:16 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:58:16 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:58:16 [INFO] Currency - Currency: USD found!
+04-01-2024 14:58:16 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:58:16 [DEBUG] MarketData - Initializing MarketData for identifier: etdfgdh
+04-01-2024 14:58:16 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:58:16 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:58:16 [ERROR] MarketData - Market for identifier:etdfgdh not found
+04-01-2024 14:58:16 [WARN] MarketData - No data found for identifier: etdfgdh
+04-01-2024 14:58:56 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:58:56 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:58:56 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:58:58 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:58:58 [DEBUG] MarketData - Initializing MarketData for identifier: sdf
+04-01-2024 14:58:58 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:58:58 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:58:58 [ERROR] MarketData - Market for identifier:sdf not found
+04-01-2024 14:58:58 [WARN] MarketData - No data found for identifier: sdf
+04-01-2024 14:58:58 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:58:58 [DEBUG] MarketData - Initializing MarketData for identifier: sdf
+04-01-2024 14:58:58 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:58:58 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:58:58 [ERROR] MarketData - Market for identifier:sdf not found
+04-01-2024 14:58:58 [WARN] MarketData - No data found for identifier: sdf
+04-01-2024 14:59:53 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 14:59:53 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 14:59:53 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 14:59:55 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 14:59:55 [DEBUG] MarketData - Initializing MarketData for identifier: asds
+04-01-2024 14:59:55 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 14:59:55 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 14:59:55 [ERROR] MarketData - Market for identifier:asds not found
+04-01-2024 14:59:55 [WARN] MarketData - No data found for identifier: asds
+04-01-2024 15:00:04 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=vs_currency&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 15:00:05 [DEBUG] ApiClient - Response code: 400
+04-01-2024 15:00:05 [ERROR] ApiClient - GET request not worked. Response code: 400. Try again later...
+04-01-2024 15:00:05 [DEBUG] MarketData - Initializing MarketData for identifier: asds
+04-01-2024 15:00:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:00:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:00:05 [ERROR] MarketData - Market for identifier:asds not found
+04-01-2024 15:00:05 [WARN] MarketData - No data found for identifier: asds
+04-01-2024 15:00:10 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aud&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 15:00:11 [DEBUG] ApiClient - Response code: 200
+04-01-2024 15:00:11 [INFO] ApiClient - Connection established
+04-01-2024 15:00:11 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 15:00:11 [DEBUG] MarketData - Initializing MarketData for identifier: asds
+04-01-2024 15:00:11 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:00:11 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:00:11 [ERROR] MarketData - Market for identifier:asds not found
+04-01-2024 15:00:11 [WARN] MarketData - No data found for identifier: asds
+04-01-2024 15:01:23 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:01:23 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:01:23 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:01:25 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:01:25 [DEBUG] MarketData - Initializing MarketData for identifier: asd
+04-01-2024 15:01:25 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:01:25 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:01:25 [ERROR] MarketData - Market for identifier:asd not found
+04-01-2024 15:01:25 [WARN] MarketData - No data found for identifier: asd
+04-01-2024 15:04:13 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:04:13 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:04:13 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:04:15 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:04:15 [DEBUG] MarketData - Initializing MarketData for identifier: asda
+04-01-2024 15:04:15 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:04:15 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:04:15 [ERROR] MarketData - Market for identifier:asda not found
+04-01-2024 15:04:15 [WARN] MarketData - No data found for identifier: asda
+04-01-2024 15:04:20 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:04:20 [DEBUG] MarketData - Initializing MarketData for identifier: 
+04-01-2024 15:04:20 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:04:20 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:04:20 [ERROR] MarketData - Market for identifier: not found
+04-01-2024 15:04:20 [WARN] MarketData - No data found for identifier: 
+04-01-2024 15:04:35 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:04:35 [DEBUG] MarketData - Initializing MarketData for identifier: asdas
+04-01-2024 15:04:35 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:04:35 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:04:35 [ERROR] MarketData - Market for identifier:asdas not found
+04-01-2024 15:04:35 [WARN] MarketData - No data found for identifier: asdas
+04-01-2024 15:06:18 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:06:18 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:06:18 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:06:20 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:06:20 [DEBUG] MarketData - Initializing MarketData for identifier: asdas
+04-01-2024 15:06:20 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:06:20 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:06:20 [ERROR] MarketData - Market for identifier:asdas not found
+04-01-2024 15:06:20 [WARN] MarketData - No data found for identifier: asdas
+04-01-2024 15:07:08 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:07:08 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:07:08 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:07:11 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:07:11 [DEBUG] MarketData - Initializing MarketData for identifier: asdsa
+04-01-2024 15:07:11 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:07:11 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:07:11 [ERROR] MarketData - Market for identifier:asdsa not found
+04-01-2024 15:07:11 [WARN] MarketData - No data found for identifier: asdsa
+04-01-2024 15:07:18 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:07:18 [DEBUG] MarketData - Initializing MarketData for identifier: btfc
+04-01-2024 15:07:18 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:07:18 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:07:18 [ERROR] MarketData - Market for identifier:btfc not found
+04-01-2024 15:07:18 [WARN] MarketData - No data found for identifier: btfc
+04-01-2024 15:07:23 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:07:23 [DEBUG] MarketData - Initializing MarketData for identifier: usd
+04-01-2024 15:07:23 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:07:23 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:07:23 [ERROR] MarketData - Market for identifier:usd not found
+04-01-2024 15:07:23 [WARN] MarketData - No data found for identifier: usd
+04-01-2024 15:07:28 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:07:28 [DEBUG] MarketData - Initializing MarketData for identifier: doge
+04-01-2024 15:07:28 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:07:28 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:07:28 [INFO] MarketData - Market for identifier:doge found
+04-01-2024 15:07:28 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:07:28 [DEBUG] MarketData - Initializing MarketData for identifier: doge
+04-01-2024 15:07:28 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:07:28 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:07:28 [INFO] MarketData - Market for identifier:doge found
+04-01-2024 15:09:21 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:09:21 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:09:21 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:09:24 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:09:24 [DEBUG] MarketData - Initializing MarketData for identifier: sdfsdf
+04-01-2024 15:09:24 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:09:24 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:09:24 [ERROR] MarketData - Market for identifier:sdfsdf not found
+04-01-2024 15:09:24 [WARN] MarketData - No data found for identifier: sdfsdf
+04-01-2024 15:10:05 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:10:05 [DEBUG] MarketData - Initializing MarketData for identifier: doge
+04-01-2024 15:10:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:10:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:10:05 [INFO] MarketData - Market for identifier:doge found
+04-01-2024 15:10:05 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:10:05 [DEBUG] MarketData - Initializing MarketData for identifier: doge
+04-01-2024 15:10:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:10:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:10:05 [INFO] MarketData - Market for identifier:doge found
+04-01-2024 15:10:48 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:10:48 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:10:48 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:11:07 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:11:07 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:11:07 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:11:07 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:11:07 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:11:07 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:11:07 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:11:07 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:11:07 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:11:07 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:13:16 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:13:16 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:13:16 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:13:19 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:13:19 [DEBUG] MarketData - Initializing MarketData for identifier: asad
+04-01-2024 15:13:19 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:13:19 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:13:19 [ERROR] MarketData - Market for identifier:asad not found
+04-01-2024 15:13:19 [WARN] MarketData - No data found for identifier: asad
+04-01-2024 15:13:30 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:13:30 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:13:30 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:13:30 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:13:30 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:13:30 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:13:30 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:13:30 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:13:30 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:13:30 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:14:24 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:14:24 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:14:24 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:14:33 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:14:33 [DEBUG] MarketData - Initializing MarketData for identifier: satoshi
+04-01-2024 15:14:33 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:14:33 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:14:33 [ERROR] MarketData - Market for identifier:satoshi not found
+04-01-2024 15:14:33 [WARN] MarketData - No data found for identifier: satoshi
+04-01-2024 15:14:38 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:14:38 [DEBUG] MarketData - Initializing MarketData for identifier: bnb
+04-01-2024 15:14:38 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:14:38 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:14:38 [INFO] MarketData - Market for identifier:bnb found
+04-01-2024 15:14:38 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:14:38 [DEBUG] MarketData - Initializing MarketData for identifier: bnb
+04-01-2024 15:14:38 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:14:38 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:14:38 [INFO] MarketData - Market for identifier:bnb found
+04-01-2024 15:16:01 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:16:01 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:16:01 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:16:04 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:16:04 [DEBUG] MarketData - Initializing MarketData for identifier: sdf
+04-01-2024 15:16:04 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:16:04 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:16:04 [ERROR] MarketData - Market for identifier:sdf not found
+04-01-2024 15:16:04 [WARN] MarketData - No data found for identifier: sdf
+04-01-2024 15:16:11 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=btc&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 15:16:53 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:16:53 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:16:53 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:16:59 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=dot&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 15:16:59 [DEBUG] ApiClient - Response code: 200
+04-01-2024 15:16:59 [INFO] ApiClient - Connection established
+04-01-2024 15:16:59 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 15:16:59 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:16:59 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:16:59 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:16:59 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:16:59 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=dot&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 15:16:59 [DEBUG] ApiClient - Response code: 200
+04-01-2024 15:16:59 [INFO] ApiClient - Connection established
+04-01-2024 15:16:59 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 15:16:59 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:16:59 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:16:59 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:16:59 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:20:01 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:20:01 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:20:01 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:20:06 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:20:06 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:20:06 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:20:06 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:20:06 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:20:06 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:20:06 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:20:06 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:20:06 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:20:06 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:22:04 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:22:04 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:22:04 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:22:10 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:22:10 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 15:22:10 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:22:10 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:22:10 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 15:22:10 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:22:10 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 15:22:10 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:22:10 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:22:10 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 15:25:18 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:25:18 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:25:18 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:25:23 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:25:23 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 15:25:23 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:25:23 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:25:23 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 15:25:23 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:25:23 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 15:25:23 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:25:23 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:25:23 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 15:26:10 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:26:10 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:26:10 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:26:14 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:26:14 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:26:14 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:26:14 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:26:14 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:26:14 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:26:14 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:26:14 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:26:14 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:26:14 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:26:46 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 15:26:46 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 15:26:46 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 15:26:49 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:26:49 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:26:49 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:26:49 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:26:49 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 15:26:50 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 15:26:50 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 15:26:50 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 15:26:50 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 15:26:50 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 16:01:03 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 16:01:03 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 16:01:03 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 16:01:07 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 16:01:07 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 16:01:07 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 16:01:07 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 16:01:07 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 16:01:07 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 16:01:07 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 16:01:07 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 16:01:07 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 16:01:07 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:09:36 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:09:36 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:09:36 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:09:45 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:09:45 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:09:45 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:09:45 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:09:45 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:09:45 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:09:45 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:09:45 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:09:45 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:09:45 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:09:52 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:09:52 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:09:52 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:10:01 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:10:01 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:10:01 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:10:01 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:10:01 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:10:01 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:10:01 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:10:01 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:10:01 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:10:01 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:10:02 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:10:02 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:10:02 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:10:12 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:10:12 [DEBUG] MarketData - Initializing MarketData for identifier: bnb
+04-01-2024 17:10:12 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:10:12 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:10:12 [INFO] MarketData - Market for identifier:bnb found
+04-01-2024 17:10:12 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:10:12 [DEBUG] MarketData - Initializing MarketData for identifier: bnb
+04-01-2024 17:10:12 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:10:12 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:10:12 [INFO] MarketData - Market for identifier:bnb found
+04-01-2024 17:10:13 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:10:13 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:10:13 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:10:17 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:10:17 [DEBUG] MarketData - Initializing MarketData for identifier: doge
+04-01-2024 17:10:17 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:10:17 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:10:17 [INFO] MarketData - Market for identifier:doge found
+04-01-2024 17:10:17 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:10:17 [DEBUG] MarketData - Initializing MarketData for identifier: doge
+04-01-2024 17:10:17 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:10:17 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:10:17 [INFO] MarketData - Market for identifier:doge found
+04-01-2024 17:10:18 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:10:18 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:10:18 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:11:49 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:11:49 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 17:11:49 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:11:49 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:11:49 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 17:11:49 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:11:49 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 17:11:49 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:11:49 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:11:49 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 17:11:50 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:11:50 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:11:50 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:12:05 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:12:05 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:12:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:12:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:12:05 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:12:05 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:12:05 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:12:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:12:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:12:05 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:12:06 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:12:06 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:12:06 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:12:34 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:12:34 [DEBUG] MarketData - Initializing MarketData for identifier: kucoin
+04-01-2024 17:12:34 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:12:34 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:12:34 [INFO] MarketData - Market for identifier:kucoin found
+04-01-2024 17:12:34 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:12:34 [DEBUG] MarketData - Initializing MarketData for identifier: kucoin
+04-01-2024 17:12:34 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:12:34 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:12:34 [INFO] MarketData - Market for identifier:kucoin found
+04-01-2024 17:12:37 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:12:37 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:12:37 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:24:22 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:24:22 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:24:22 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:24:26 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:24:26 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:24:26 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:24:26 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:24:26 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:24:26 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:24:26 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:24:26 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:24:26 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:24:26 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:24:31 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:24:31 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:24:31 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:24:40 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:24:40 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:24:40 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:24:40 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:24:40 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:24:40 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:24:40 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:24:40 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:24:40 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:24:40 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:24:42 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:24:42 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:24:42 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:24:57 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:24:57 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 17:24:57 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:24:57 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:24:57 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 17:24:57 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:24:57 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 17:24:57 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:24:57 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:24:57 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 17:24:58 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:24:58 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:24:58 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:25:12 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:25:12 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 17:25:12 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:25:12 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:25:12 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 17:25:12 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:25:12 [DEBUG] MarketData - Initializing MarketData for identifier: tether
+04-01-2024 17:25:12 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:25:12 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:25:12 [INFO] MarketData - Market for identifier:tether found
+04-01-2024 17:25:14 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:25:14 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:25:14 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:25:18 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:25:18 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:25:18 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:25:18 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:25:18 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:25:18 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:25:18 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:25:18 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:25:18 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:25:18 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:25:20 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:25:20 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:25:20 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:27:13 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:27:13 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:27:13 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:27:17 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:27:17 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:27:17 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:27:17 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:27:17 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:27:17 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:27:17 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:27:17 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:27:17 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:27:17 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:27:19 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:27:19 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:27:19 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:27:25 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:27:25 [DEBUG] MarketData - Initializing MarketData for identifier: ethereum
+04-01-2024 17:27:25 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:27:25 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:27:25 [INFO] MarketData - Market for identifier:ethereum found
+04-01-2024 17:27:25 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:27:25 [DEBUG] MarketData - Initializing MarketData for identifier: ethereum
+04-01-2024 17:27:25 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:27:25 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:27:25 [INFO] MarketData - Market for identifier:ethereum found
+04-01-2024 17:27:27 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:27:27 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:27:27 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:36:26 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:36:26 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:36:26 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:36:30 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:36:30 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:36:30 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:36:30 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:36:30 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:36:30 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:36:30 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:36:30 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:36:30 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:36:30 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:36:39 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:36:39 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:36:39 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:39:02 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:39:02 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:39:02 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:39:05 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:39:05 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:39:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:39:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:39:05 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:39:05 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:39:05 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:39:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:39:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:39:05 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:39:06 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:39:06 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:39:06 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:42:56 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:42:56 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:42:56 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:42:58 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:42:58 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:42:58 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:42:58 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:42:58 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:42:59 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:42:59 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:42:59 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:42:59 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:42:59 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:43:01 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:43:01 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:43:01 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:43:15 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:43:15 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:43:15 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:43:15 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:43:15 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:43:15 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:43:15 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:43:15 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:43:15 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:43:15 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:43:18 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:43:18 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:43:18 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:45:30 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:45:30 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:45:30 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:45:34 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:45:34 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:45:34 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:48:20 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:48:20 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:48:20 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:48:23 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:48:23 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:48:23 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:48:23 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:48:23 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:48:23 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:48:23 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:48:23 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:48:23 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:48:23 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:48:25 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:48:25 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:48:25 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:51:22 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:51:22 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:51:22 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:51:28 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:51:28 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:51:28 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:51:28 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:51:28 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:51:28 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:51:28 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:51:28 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:51:28 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:51:28 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:51:34 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:51:34 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:51:34 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:51:41 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:51:41 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:51:41 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:51:41 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:51:41 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:51:41 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:51:41 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:51:41 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:51:41 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:51:41 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:51:45 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:51:45 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:51:45 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:52:29 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:52:29 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:52:29 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:52:31 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:52:31 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:52:31 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:52:31 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:52:31 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:52:31 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:52:31 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:52:31 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:52:31 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:52:31 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:52:33 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:52:33 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:52:33 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:52:43 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:52:43 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:52:43 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:52:43 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:52:43 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:52:43 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:52:43 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:52:43 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:52:43 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:52:43 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:52:48 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:52:48 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:52:48 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:54:24 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:54:24 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:54:24 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:54:27 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:54:27 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:54:27 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:54:27 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:54:27 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:54:27 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:54:27 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 17:54:27 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:54:27 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:54:27 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 17:54:29 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:54:29 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:54:29 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 17:54:38 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:54:38 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:54:38 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:54:38 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:54:38 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:54:38 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 17:54:38 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 17:54:38 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 17:54:38 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 17:54:38 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 17:54:45 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 17:54:45 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 17:54:45 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:03:42 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:03:42 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:03:42 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:03:46 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:03:46 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:03:46 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:03:46 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:03:46 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:03:46 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:03:46 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:03:46 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:03:46 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:03:46 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:04:01 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:04:01 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:04:01 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:04:10 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:04:10 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:04:10 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:04:10 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:04:10 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:04:10 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:04:10 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:04:10 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:04:10 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:04:10 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:04:14 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:04:14 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:04:14 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:04:20 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=ars&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:04:20 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:04:20 [INFO] ApiClient - Connection established
+04-01-2024 18:04:20 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:04:20 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:04:20 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:04:20 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:04:20 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:04:20 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:04:21 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:04:21 [INFO] ApiClient - Connection established
+04-01-2024 18:04:21 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:04:21 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:04:21 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:04:21 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:04:21 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:04:29 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:04:29 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:04:29 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:04:35 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:04:35 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:04:35 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:04:35 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:04:35 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:04:35 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:04:35 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:04:35 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:04:35 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:04:35 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:04:39 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:04:39 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:04:39 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:08:41 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:08:41 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:08:41 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:09:01 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:09:01 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:09:01 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:09:01 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:09:01 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:09:01 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:09:01 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:09:01 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:09:01 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:09:01 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:09:24 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:09:24 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:09:24 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:09:28 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:09:28 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:09:28 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:09:28 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:09:28 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:09:28 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:09:28 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:09:28 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:09:28 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:09:28 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:09:40 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:09:40 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:09:40 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:10:41 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:10:41 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:10:41 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:10:48 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:10:48 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:10:48 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:10:48 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:10:48 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:10:48 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:10:48 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:10:48 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:10:48 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:10:48 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:11:04 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:11:04 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:11:04 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:11:17 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:11:17 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:11:17 [INFO] ApiClient - Connection established
+04-01-2024 18:11:17 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:11:17 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:11:17 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:11:17 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:11:17 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:11:17 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:11:17 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:11:17 [INFO] ApiClient - Connection established
+04-01-2024 18:11:17 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:11:17 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:11:17 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:11:17 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:11:17 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:11:23 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:11:23 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:11:23 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:11:27 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:11:27 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:11:27 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:11:27 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:11:27 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:11:27 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:11:27 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:11:27 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:11:27 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:11:27 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:11:34 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:11:34 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:11:34 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:11:41 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=yfi&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:11:51 [DEBUG] ApiClient - Response code: 504
+04-01-2024 18:11:51 [ERROR] ApiClient - GET request not worked. Response code: 504. Try again later...
+04-01-2024 18:11:51 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:11:51 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:11:51 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:11:51 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:11:51 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:11:51 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:11:51 [INFO] ApiClient - Connection established
+04-01-2024 18:11:51 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:11:51 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:11:51 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:11:51 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:11:51 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:12:01 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:12:01 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:12:01 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:12:52 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:12:52 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:12:52 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:12:57 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:12:57 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:12:57 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:12:57 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:12:57 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:12:57 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:12:57 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:12:57 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:12:57 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:12:57 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:13:00 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:13:00 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:13:00 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:13:04 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:13:04 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:13:04 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:13:04 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:13:04 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:13:04 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:13:04 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:13:04 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:13:04 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:13:04 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:13:07 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:13:07 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:13:07 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:15:14 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:15:14 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:15:14 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:15:17 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:15:17 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:15:17 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:15:17 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:15:17 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:15:17 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:15:17 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:15:17 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:15:17 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:15:17 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:15:20 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:15:20 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:15:20 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:15:32 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:15:32 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:15:32 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:15:32 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:15:32 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:15:32 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:15:32 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:15:32 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:15:32 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:15:32 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:15:38 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:15:38 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:15:38 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:15:54 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:15:54 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:15:54 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:15:54 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:15:54 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:15:54 [INFO] ApiClient - Cache file exists: src/cache/market_list_cache.json
+04-01-2024 18:15:54 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:15:54 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:15:54 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:15:54 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:15:58 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:15:58 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:15:58 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:16:04 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=bnb&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:16:05 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:16:05 [INFO] ApiClient - Connection established
+04-01-2024 18:16:05 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:16:05 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:16:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:16:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:16:05 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:16:05 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=bnb&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:16:05 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:16:05 [INFO] ApiClient - Connection established
+04-01-2024 18:16:05 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:16:05 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:16:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:16:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:16:05 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:16:11 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:16:11 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:16:11 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:22:31 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:22:31 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:22:31 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:22:35 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:22:35 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:22:35 [INFO] ApiClient - Connection established
+04-01-2024 18:22:35 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:22:35 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:22:35 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:22:35 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:22:35 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:22:35 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:22:36 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:22:36 [INFO] ApiClient - Connection established
+04-01-2024 18:22:36 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:22:36 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:22:36 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:22:36 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:22:36 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:22:42 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:22:42 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:22:42 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:22:48 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aed&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:22:48 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:22:48 [INFO] ApiClient - Connection established
+04-01-2024 18:22:48 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:22:48 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:22:48 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:22:48 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:22:48 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:22:48 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aed&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:22:48 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:22:48 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:22:48 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:22:48 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:22:48 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:22:48 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:22:53 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:22:53 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:22:53 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:22:57 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:22:57 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:22:57 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:22:57 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:22:57 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:22:57 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:22:57 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:22:57 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:22:57 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:22:57 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:22:57 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:22:57 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:22:57 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:22:57 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:23:02 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:23:02 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:23:02 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:23:04 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=vs_currency&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:23:04 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:23:04 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:23:04 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:23:04 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:23:04 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:23:04 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:23:04 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:23:04 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:23:04 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:23:04 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:23:04 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:23:04 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:23:04 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:23:05 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:23:05 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:23:05 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:23:09 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=bdt&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:23:09 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:23:09 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:23:09 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:23:09 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:23:09 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:23:09 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:23:09 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=bdt&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:23:09 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:23:09 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:23:09 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:23:09 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:23:09 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:23:09 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:25:59 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:25:59 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:25:59 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:27:28 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:27:28 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:27:28 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:27:33 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:27:33 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:27:33 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:27:33 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:27:33 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:27:33 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:27:33 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:27:33 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:27:33 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:27:33 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:27:33 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:27:33 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:27:33 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:27:33 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:28:12 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:28:12 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:28:12 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:30:54 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:30:54 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:30:54 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:31:02 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:31:02 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:31:02 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:31:02 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:31:02 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:31:02 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:31:02 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:31:02 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:31:02 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:31:02 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:31:02 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:31:02 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:31:02 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:31:02 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:33:36 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:33:36 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:33:36 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:33:44 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=vs_currency&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:33:44 [DEBUG] ApiClient - Response code: 400
+04-01-2024 18:33:44 [ERROR] ApiClient - GET request not worked. Response code: 400. Try again later...
+04-01-2024 18:33:44 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:33:44 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:33:44 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:33:44 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:33:44 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:33:44 [DEBUG] ApiClient - Response code: 200
+04-01-2024 18:33:44 [INFO] ApiClient - Connection established
+04-01-2024 18:33:44 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+04-01-2024 18:33:44 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+04-01-2024 18:33:44 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:33:44 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:33:44 [INFO] MarketData - Market for identifier:btc found
+04-01-2024 18:33:53 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:33:53 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:33:53 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:34:05 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=vs_currency&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:34:05 [DEBUG] ApiClient - Response code: 400
+04-01-2024 18:34:05 [ERROR] ApiClient - GET request not worked. Response code: 400. Try again later...
+04-01-2024 18:34:05 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:34:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:34:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:34:05 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:34:05 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:34:05 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:34:05 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:34:05 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+04-01-2024 18:34:05 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:34:05 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:34:05 [INFO] MarketData - Market for identifier:eth found
+04-01-2024 18:34:07 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:34:07 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:34:07 [INFO] CurrencyList - Sucesfully created list of supported currencies
+04-01-2024 18:34:20 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=vs_currency&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:34:20 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:34:20 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:34:20 [DEBUG] MarketData - Initializing MarketData for identifier: doge
+04-01-2024 18:34:20 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:34:20 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:34:20 [INFO] MarketData - Market for identifier:doge found
+04-01-2024 18:34:20 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+04-01-2024 18:34:20 [DEBUG] ApiClient - Response code: 429
+04-01-2024 18:34:20 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+04-01-2024 18:34:20 [DEBUG] MarketData - Initializing MarketData for identifier: doge
+04-01-2024 18:34:20 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+04-01-2024 18:34:20 [INFO] MarketDataList - Successfully created list of MarketData objects
+04-01-2024 18:34:20 [INFO] MarketData - Market for identifier:doge found
+04-01-2024 18:34:22 [DEBUG] CurrencyList - Initializing CurrencyList class
+04-01-2024 18:34:22 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+04-01-2024 18:34:22 [INFO] CurrencyList - Sucesfully created list of supported currencies
