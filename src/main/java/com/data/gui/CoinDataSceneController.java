@@ -1,6 +1,7 @@
 package com.data.gui;
 
 import com.data.market.MarketData;
+import com.data.market.MarketDataCache;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -41,10 +42,13 @@ public class CoinDataSceneController {
     @FXML
     public ImageView triangle_symbol;
     @FXML
-    public Button addFavourites;
+    public Button refreshButton;
     private Stage stage;
     private Scene scene;
     private Parent root;
+
+
+
     private String selectedCurrency;
     private String searchText;
     private Boolean autoRefresh;
@@ -55,13 +59,13 @@ public class CoinDataSceneController {
 
     public void loadData() {
 
-        MarketData marketData = new MarketData(searchText,selectedCurrency,autoRefresh);
-        String formattedPrice = String.format("%.3f",marketData.getPrice_change_24h());
-        String formattedPercent = String.format("%.3f",marketData.getPrice_change_percentage_24h());
+        MarketData marketData = MarketDataCache.getMarketData(searchText, selectedCurrency, autoRefresh);
+        String formattedPrice = String.format("%.6f", marketData.getPrice_change_24h());
+        String formattedPercent = String.format("%.6f", marketData.getPrice_change_percentage_24h());
 
         String trianglePath = null;
 
-        if(formattedPercent.contains("-")) {
+        if (formattedPercent.contains("-")) {
             trianglePath = getClass().getResource("/com.data.gui/images/red_triangle.png").toExternalForm();
         } else {
             trianglePath = getClass().getResource("/com.data.gui/images/green_triangle.png").toExternalForm();
@@ -73,7 +77,7 @@ public class CoinDataSceneController {
         String cryptoChange = formattedPrice + " (" + formattedPercent + "%)";
         String price = marketData.getCurrent_price() + " " + selectedCurrency;
         String cryptoID = "Kurs " + marketData.getName() + " (" + marketData.getSymbol().toUpperCase() + ")";
-        String formattedMarket = String.format("%.3f",marketData.getMarket_cap());
+        String formattedMarket = String.format("%.1f", marketData.getMarket_cap());
         Image cryptoImage = new Image(marketData.getIconUrl());
 
 
@@ -98,6 +102,7 @@ public class CoinDataSceneController {
     public void setSearchText(String searchText) {
         this.searchText = searchText;
     }
+
     public void setAutoRefresh(Boolean autoRefresh) {
         this.autoRefresh = autoRefresh;
     }
@@ -113,4 +118,14 @@ public class CoinDataSceneController {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void refreshData(ActionEvent event) {
+        MarketDataCache.clearCacheFor(searchText,selectedCurrency,autoRefresh);
+        loadData();
+    }
+    public String getSelectedCurrency() {
+        return selectedCurrency;
+    }
 }
+
+

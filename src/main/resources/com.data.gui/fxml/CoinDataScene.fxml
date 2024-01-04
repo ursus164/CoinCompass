@@ -43,35 +43,35 @@
             <Insets />
          </opaqueInsets>
       </Label>
-      <TextField fx:id="crypto_id" editable="false" layoutX="74.0" layoutY="45.0" prefHeight="39.0" prefWidth="345.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Kurs Bitcoin (BTC)">
+      <TextField fx:id="crypto_id" editable="false" focusTraversable="false" layoutX="74.0" layoutY="45.0" prefHeight="39.0" prefWidth="345.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Kurs Bitcoin (BTC)">
          <font>
             <Font name="Arial Black" size="20.0" />
          </font>
       </TextField>
-      <TextField fx:id="crypto_price" editable="false" layoutX="33.0" layoutY="90.0" prefHeight="38.0" prefWidth="155.0" styleClass="squareBox" stylesheets="@../style/style.css" text="\$518.25">
+      <TextField fx:id="crypto_price" editable="false" focusTraversable="false" layoutX="33.0" layoutY="90.0" prefHeight="38.0" prefWidth="155.0" styleClass="squareBox" stylesheets="@../style/style.css" text="\$518.25">
          <font>
             <Font name="Arial Black" size="18.0" />
          </font>
       </TextField>
-      <TextField fx:id="crypto_change" editable="false" layoutX="335.0" layoutY="90.0" prefHeight="38.0" prefWidth="197.0" styleClass="squareBox" stylesheets="@../style/style.css" text="-2.70 (2.29%)">
+      <TextField fx:id="crypto_change" editable="false" focusTraversable="false" layoutX="322.0" layoutY="90.0" prefHeight="38.0" prefWidth="264.0" styleClass="squareBox" stylesheets="@../style/style.css" text="-2.70 (2.29%)">
          <font>
             <Font name="Arial Black" size="18.0" />
          </font>
       </TextField>
       <Label layoutX="12.0" layoutY="309.0" prefHeight="222.0" prefWidth="582.0" styleClass="squareBox" stylesheets="@../style/style.css" />
-      <TextField editable="false" layoutX="19.0" layoutY="144.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="ATH:">
+      <TextField editable="false" focusTraversable="false" layoutX="19.0" layoutY="144.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="ATH:">
          <font>
             <Font name="System Italic" size="15.0" />
          </font>
       </TextField>
       <ImageView fx:id="CryptoSymbol" fitHeight="38.0" fitWidth="41.0" layoutX="33.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" />
-      <TextField fx:id="ath_value" alignment="CENTER" editable="false" layoutX="122.0" layoutY="147.0" prefHeight="31.0" prefWidth="144.0" styleClass="favourites" stylesheets="@../style/style.css">
+      <TextField fx:id="ath_value" alignment="CENTER" editable="false" focusTraversable="false" layoutX="122.0" layoutY="147.0" prefHeight="31.0" prefWidth="144.0" styleClass="favourites" stylesheets="@../style/style.css">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
       <Button fx:id="back_button" layoutX="14.0" layoutY="540.0" mnemonicParsing="false" onAction="#getBack" prefHeight="5.0" prefWidth="50.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Back" />
-      <ImageView fx:id="triangle_symbol" fitHeight="20.0" fitWidth="21.0" layoutX="314.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="triangle_symbol" fitHeight="20.0" fitWidth="21.0" layoutX="295.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
       <LineChart layoutX="22.0" layoutY="313.0" prefHeight="222.0" prefWidth="566.0">
         <xAxis>
           <CategoryAxis side="BOTTOM" />
@@ -80,55 +80,56 @@
           <NumberAxis side="LEFT" />
         </yAxis>
       </LineChart>
-      <TextField editable="false" layoutX="18.0" layoutY="197.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="MARKET CAP:">
+      <TextField editable="false" focusTraversable="false" layoutX="18.0" layoutY="197.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="MARKET CAP:">
          <font>
             <Font name="System Italic" size="15.0" />
          </font>
       </TextField>
-      <TextField fx:id="market_cap_value" alignment="CENTER" editable="false" layoutX="122.0" layoutY="200.0" prefHeight="31.0" prefWidth="144.0" styleClass="favourites" stylesheets="@../style/style.css">
+      <TextField fx:id="market_cap_value" alignment="CENTER" editable="false" focusTraversable="false" layoutX="122.0" layoutY="200.0" prefHeight="31.0" prefWidth="144.0" styleClass="favourites" stylesheets="@../style/style.css">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
-      <TextField editable="false" layoutX="17.0" layoutY="247.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="HIGH_24H:">
+      <TextField editable="false" focusTraversable="false" layoutX="17.0" layoutY="247.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="HIGH_24H:">
          <font>
             <Font name="System Italic" size="15.0" />
          </font>
       </TextField>
-      <TextField fx:id="high_24h_value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="250.0" prefHeight="31.0" prefWidth="144.0" styleClass="favourites" stylesheets="@../style/style.css">
+      <TextField fx:id="high_24h_value" alignment="CENTER" editable="false" focusTraversable="false" layoutX="120.0" layoutY="250.0" prefHeight="31.0" prefWidth="144.0" styleClass="favourites" stylesheets="@../style/style.css">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
-      <TextField editable="false" layoutX="343.0" layoutY="147.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="ATL:">
+      <TextField editable="false" focusTraversable="false" layoutX="343.0" layoutY="147.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="ATL:">
          <font>
             <Font name="System Italic" size="15.0" />
          </font>
       </TextField>
-      <TextField fx:id="atl_value" alignment="CENTER" editable="false" layoutX="455.0" layoutY="150.0" prefHeight="31.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css">
+      <TextField fx:id="atl_value" alignment="CENTER" editable="false" focusTraversable="false" layoutX="455.0" layoutY="150.0" prefHeight="31.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
-      <TextField editable="false" layoutX="342.0" layoutY="200.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="MARKET RANK:">
+      <TextField editable="false" focusTraversable="false" layoutX="342.0" layoutY="200.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="MARKET RANK:">
          <font>
             <Font name="System Italic" size="15.0" />
          </font>
       </TextField>
-      <TextField fx:id="market_cap_rank_value" alignment="CENTER" editable="false" layoutX="456.0" layoutY="203.0" prefHeight="31.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css">
+      <TextField fx:id="market_cap_rank_value" alignment="CENTER" editable="false" focusTraversable="false" layoutX="456.0" layoutY="203.0" prefHeight="31.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
-      <TextField editable="false" layoutX="341.0" layoutY="250.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="LOW_24H:">
+      <TextField editable="false" focusTraversable="false" layoutX="341.0" layoutY="250.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="LOW_24H:">
          <font>
             <Font name="System Italic" size="15.0" />
          </font>
       </TextField>
-      <TextField fx:id="low_24h_value" alignment="CENTER" editable="false" layoutX="453.0" layoutY="253.0" prefHeight="31.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css">
+      <TextField fx:id="low_24h_value" alignment="CENTER" editable="false" focusTraversable="false" layoutX="453.0" layoutY="253.0" prefHeight="31.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
+      <Button fx:id="refreshButton" layoutX="74.0" layoutY="540.0" mnemonicParsing="false" onAction="#refreshData" prefHeight="26.0" prefWidth="65.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Refresh" />
    </children>
 </AnchorPane>

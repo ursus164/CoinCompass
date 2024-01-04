@@ -1,11 +1,14 @@
 package com.data.gui;
 
-import com.data.api.CurrencyList;
+import com.data.currency.CurrencyList;
+import com.data.currency.CurrencySettings;
 import com.data.market.MarketData;
+import com.data.market.MarketDataCache;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -15,9 +18,7 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 
 public class MainSceneController {
     @FXML
@@ -73,12 +74,27 @@ public class MainSceneController {
     @FXML
     public ImageView img_triangle1;
     @FXML
+    public TextField price_field1;
+    @FXML
+    public TextField change_field1;
+    @FXML
+    public TextField price_field2;
+    @FXML
+    public TextField change_field2;
+    @FXML
+    public TextField price_field3;
+    @FXML
+    public TextField change_field3;
+    @FXML
+    public TextField price_field4;
+    @FXML
+    public TextField change_field4;
+    @FXML
     MenuItem menuLogOutButton;
     @FXML
     MenuItem menuCloseButton;
     @FXML
     ChoiceBox <String> currencyChoice;
-
     private Stage stage;
     private Scene scene;
     private Parent root;
@@ -98,8 +114,9 @@ public class MainSceneController {
 
         if (!searchField.getText().isEmpty()) {
 
-            MarketData marketData = new MarketData(searchField.getText(),currencyChoice.getValue(),RefreshCheckBox);
-            System.out.println(currencyChoice.getValue());
+            MarketData marketData = MarketDataCache.getMarketData(searchField.getText(),currencyChoice.getValue(),RefreshCheckBox);
+            marketData.setCurrency(currencyChoice.getValue());
+
             if(marketData.getSymbol() != null){
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("/com.data.gui/fxml/CoinDataScene.fxml"));
                 root = loader.load();
@@ -108,18 +125,14 @@ public class MainSceneController {
                 CoinDataSceneController controller = loader.getController();
                 controller.setStage(stage);
                 controller.setSearchText(searchField.getText().toLowerCase());
-
-                if(currencyChoice.getValue().equals("vs_currency")) {
-                    controller.setSelectedCurrency("usd");          // default, only for view
-                } else {
-                    controller.setSelectedCurrency(currencyChoice.getValue());
-
-                }
+                controller.setSelectedCurrency(currencyChoice.getValue());
                 controller.setAutoRefresh(RefreshCheckBox);
                 controller.loadData();
 
                 stage.setScene(scene);
                 stage.show();
+
+                HistoryManager.getInstance().addSearch(marketData);
             } else {
                 searchField.setPromptText("No market found for: " + searchField.getText());
                 searchField.setText("");
@@ -130,26 +143,40 @@ public class MainSceneController {
     }
 
     public void initialize() {
-        currencyChoice.setValue("vs_currency");
         CurrencyList list = new CurrencyList();
         List<String> currencies = list.getAllCurrencies();
         currencyChoice.getItems().addAll(currencies);
 
+        currencyChoice.setValue(CurrencySettings.getInstance().getSelectedCurrency());
+        currencyChoice.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observableValue, String oldVal, String newVal) {
+                CurrencySettings.getInstance().setSelectedCurrency(newVal);
+            }
+        });
         updateHistoryDisplay();
     }
 
     public void updateHistoryDisplay() {
         List<MarketData> history = HistoryManager.getInstance().getHistory();
         if(history.size() > 0) {
+            price_field1.setVisible(true);
+            change_field1.setVisible(true);
             updateSlot(history.get(0),label_slot1,price_slot1,img_slot1,percent_slot1,img_triangle1);
         }
         if (history.size() > 1) {
+            price_field2.setVisible(true);
+            change_field2.setVisible(true);
             updateSlot(history.get(1),label_slot2,price_slot2,img_slot2,percent_slot2,img_triangle2);
         }
         if (history.size() > 2) {
+            price_field3.setVisible(true);
+            change_field3.setVisible(true);
             updateSlot(history.get(2),label_slot3,price_slot3,img_slot3,percent_slot3,img_triangle3);
         }
         if (history.size() > 3) {
+            price_field4.setVisible(true);
+            change_field4.setVisible(true);
             updateSlot(history.get(3),label_slot4,price_slot4,img_slot4,percent_slot4,img_triangle4);
         }
     }
@@ -165,12 +192,11 @@ public class MainSceneController {
 
         Image triangleIcon = new Image(trianglePath);
 
-        String formattedPrice = String.format("%.3f",data.getPrice_change_24h());
+        String formattedPrice = String.format("%.3f",data.getCurrent_price());
         String formattedPercent = String.format("%.3f",data.getPrice_change_percentage_24h());
 
         String cryptoChange = formattedPercent + "%";
-        String finalPrice = formattedPrice + " " + currencyChoice.getValue().toUpperCase();
-
+        String finalPrice = formattedPrice + " " + data.getCurrency().toUpperCase();
 
 
         symbol.setText(data.getSymbol().toUpperCase());

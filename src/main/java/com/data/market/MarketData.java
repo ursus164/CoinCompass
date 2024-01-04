@@ -28,7 +28,7 @@ public class MarketData {
     private double atl;
     private double market_cap;
     private int market_cap_rank;
-
+    private String currency;
 
 
 
@@ -147,6 +147,13 @@ public class MarketData {
             logger.error("Market for identifier:" + input + " not found");
             return null;
         }
+    }
+    public String getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(String currency) {
+        this.currency = currency;
     }
 
     public String getId() {
