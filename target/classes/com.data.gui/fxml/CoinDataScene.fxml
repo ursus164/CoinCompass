@@ -20,7 +20,8 @@
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem mnemonicParsing="false" text="Close" />
+                  <MenuItem mnemonicParsing="false" onAction="#logout" text="Logout" />
+              <MenuItem mnemonicParsing="false" onAction="#close" text="Close" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
@@ -48,7 +49,7 @@
             <Font name="Arial Black" size="20.0" />
          </font>
       </TextField>
-      <TextField fx:id="crypto_price" editable="false" focusTraversable="false" layoutX="33.0" layoutY="90.0" prefHeight="38.0" prefWidth="155.0" styleClass="squareBox" stylesheets="@../style/style.css" text="\$518.25">
+      <TextField fx:id="crypto_price" editable="false" focusTraversable="false" layoutX="33.0" layoutY="90.0" prefHeight="38.0" prefWidth="221.0" styleClass="squareBox" stylesheets="@../style/style.css" text="\$518.25">
          <font>
             <Font name="Arial Black" size="18.0" />
          </font>
@@ -72,7 +73,7 @@
       </TextField>
       <Button fx:id="back_button" focusTraversable="false" layoutX="536.0" layoutY="45.0" mnemonicParsing="false" onAction="#getBack" prefHeight="5.0" prefWidth="50.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Back" />
       <ImageView fx:id="triangle_symbol" fitHeight="20.0" fitWidth="21.0" layoutX="295.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
-      <LineChart fx:id="coinChart" animated="false" createSymbols="false" layoutX="4.0" layoutY="290.0" legendVisible="false" prefHeight="230.0" prefWidth="591.0">
+      <LineChart fx:id="coinChart" animated="false" createSymbols="false" layoutX="4.0" layoutY="290.0" legendVisible="false" prefHeight="242.0" prefWidth="591.0">
         <xAxis>
           <CategoryAxis prefHeight="21.0" prefWidth="536.0" side="BOTTOM" />
         </xAxis>

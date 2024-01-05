@@ -1,70 +1,87 @@
-05-01-2024 16:25:32 [DEBUG] CurrencyList - Initializing CurrencyList class
-05-01-2024 16:25:32 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
-05-01-2024 16:25:32 [INFO] CurrencyList - Sucesfully created list of supported currencies
-05-01-2024 16:25:35 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
-05-01-2024 16:25:35 [DEBUG] ApiClient - Response code: 200
-05-01-2024 16:25:35 [INFO] ApiClient - Connection established
-05-01-2024 16:25:35 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
-05-01-2024 16:25:35 [DEBUG] MarketData - Initializing MarketData for identifier: btc
-05-01-2024 16:25:35 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-05-01-2024 16:25:35 [INFO] MarketDataList - Successfully created list of MarketData objects
-05-01-2024 16:25:35 [INFO] MarketData - Market for identifier:btc found
-05-01-2024 16:25:35 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=1
-05-01-2024 16:25:36 [DEBUG] ApiClient - Response code: 200
-05-01-2024 16:25:36 [INFO] ApiClient - Connection established
-05-01-2024 16:25:36 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
-05-01-2024 16:25:36 [DEBUG] MarketDataPoint - Initializing market chart for identifier: bitcoin
-05-01-2024 16:25:36 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-05-01-2024 16:25:36 [INFO] MarketDataSeries - Successfully created chart points list
-05-01-2024 16:25:40 [DEBUG] CurrencyList - Initializing CurrencyList class
-05-01-2024 16:25:40 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
-05-01-2024 16:25:40 [INFO] CurrencyList - Sucesfully created list of supported currencies
-05-01-2024 16:25:45 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
-05-01-2024 16:25:45 [DEBUG] ApiClient - Response code: 200
-05-01-2024 16:25:45 [INFO] ApiClient - Connection established
-05-01-2024 16:25:45 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
-05-01-2024 16:25:45 [DEBUG] MarketData - Initializing MarketData for identifier: usdt
-05-01-2024 16:25:45 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-05-01-2024 16:25:45 [INFO] MarketDataList - Successfully created list of MarketData objects
-05-01-2024 16:25:45 [INFO] MarketData - Market for identifier:usdt found
-05-01-2024 16:25:46 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/tether/market_chart?vs_currency=usd&days=1
-05-01-2024 16:25:46 [DEBUG] ApiClient - Response code: 200
-05-01-2024 16:25:46 [INFO] ApiClient - Connection established
-05-01-2024 16:25:46 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
-05-01-2024 16:25:46 [DEBUG] MarketDataPoint - Initializing market chart for identifier: tether
-05-01-2024 16:25:46 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-05-01-2024 16:25:46 [INFO] MarketDataSeries - Successfully created chart points list
-05-01-2024 16:25:57 [DEBUG] CurrencyList - Initializing CurrencyList class
-05-01-2024 16:25:57 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
-05-01-2024 16:25:57 [INFO] CurrencyList - Sucesfully created list of supported currencies
-05-01-2024 16:26:00 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
-05-01-2024 16:26:00 [DEBUG] ApiClient - Response code: 200
-05-01-2024 16:26:00 [INFO] ApiClient - Connection established
-05-01-2024 16:26:00 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
-05-01-2024 16:26:00 [DEBUG] MarketData - Initializing MarketData for identifier: doge
-05-01-2024 16:26:00 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-05-01-2024 16:26:00 [INFO] MarketDataList - Successfully created list of MarketData objects
-05-01-2024 16:26:00 [INFO] MarketData - Market for identifier:doge found
-05-01-2024 16:26:00 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/dogecoin/market_chart?vs_currency=usd&days=1
-05-01-2024 16:26:00 [DEBUG] ApiClient - Response code: 200
-05-01-2024 16:26:00 [INFO] ApiClient - Connection established
-05-01-2024 16:26:00 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
-05-01-2024 16:26:00 [DEBUG] MarketDataPoint - Initializing market chart for identifier: dogecoin
-05-01-2024 16:26:00 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-05-01-2024 16:26:00 [INFO] MarketDataSeries - Successfully created chart points list
-05-01-2024 16:26:04 [DEBUG] CurrencyList - Initializing CurrencyList class
-05-01-2024 16:26:04 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
-05-01-2024 16:26:04 [INFO] CurrencyList - Sucesfully created list of supported currencies
-05-01-2024 16:26:11 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
-05-01-2024 16:26:11 [DEBUG] ApiClient - Response code: 429
-05-01-2024 16:26:11 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
-05-01-2024 16:26:11 [DEBUG] MarketData - Initializing MarketData for identifier: shiba-inu
-05-01-2024 16:26:11 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-05-01-2024 16:26:11 [INFO] MarketDataList - Successfully created list of MarketData objects
-05-01-2024 16:26:11 [INFO] MarketData - Market for identifier:shiba-inu found
-05-01-2024 16:26:11 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/shiba-inu/market_chart?vs_currency=usd&days=1
-05-01-2024 16:26:11 [DEBUG] ApiClient - Response code: 429
-05-01-2024 16:26:11 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
-05-01-2024 16:26:11 [DEBUG] MarketDataPoint - Initializing market chart for identifier: shiba-inu
-05-01-2024 16:26:11 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-05-01-2024 16:26:11 [INFO] MarketDataSeries - Successfully created chart points list
+05-01-2024 21:44:32 [INFO] Main - Log file data has been cleared
+05-01-2024 21:44:34 [DEBUG] CurrencyList - Initializing CurrencyList class
+05-01-2024 21:44:34 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+05-01-2024 21:44:34 [INFO] CurrencyList - Sucesfully created list of supported currencies
+05-01-2024 21:44:38 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+05-01-2024 21:44:39 [DEBUG] ApiClient - Response code: 200
+05-01-2024 21:44:39 [INFO] ApiClient - Connection established
+05-01-2024 21:44:39 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+05-01-2024 21:44:39 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+05-01-2024 21:44:39 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+05-01-2024 21:44:39 [INFO] MarketDataList - Successfully created list of MarketData objects
+05-01-2024 21:44:39 [INFO] MarketData - Market for identifier:btc found
+05-01-2024 21:44:39 [DEBUG] MarketDataCache - Initializing new MarketData object for key: btc_usd_true
+05-01-2024 21:44:39 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=1
+05-01-2024 21:44:39 [DEBUG] ApiClient - Response code: 200
+05-01-2024 21:44:39 [INFO] ApiClient - Connection established
+05-01-2024 21:44:39 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
+05-01-2024 21:44:39 [DEBUG] MarketDataPoint - Initializing market chart for identifier: bitcoin
+05-01-2024 21:44:39 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+05-01-2024 21:44:39 [INFO] MarketDataSeries - Successfully created chart points list
+05-01-2024 21:44:39 [DEBUG] CoinDataSceneController - Initializing chart for market: bitcoin
+05-01-2024 21:44:39 [INFO] HistoryManager - History added for market: Bitcoin
+05-01-2024 21:44:39 [INFO] HistoryManager - History added for market: Bitcoin
+05-01-2024 21:44:40 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=1
+05-01-2024 21:44:40 [DEBUG] ApiClient - Response code: 200
+05-01-2024 21:44:40 [INFO] ApiClient - Connection established
+05-01-2024 21:44:40 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
+05-01-2024 21:44:40 [DEBUG] MarketDataPoint - Initializing market chart for identifier: bitcoin
+05-01-2024 21:44:40 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+05-01-2024 21:44:40 [INFO] MarketDataSeries - Successfully created chart points list
+05-01-2024 21:44:40 [DEBUG] CoinDataSceneController - Initializing chart for market: bitcoin
+05-01-2024 21:44:40 [INFO] HistoryManager - History added for market: Bitcoin
+05-01-2024 21:44:41 [DEBUG] CurrencyList - Initializing CurrencyList class
+05-01-2024 21:44:41 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+05-01-2024 21:44:41 [INFO] CurrencyList - Sucesfully created list of supported currencies
+05-01-2024 21:44:41 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: btc_usd_true
+05-01-2024 21:44:48 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+05-01-2024 21:44:48 [DEBUG] ApiClient - Response code: 200
+05-01-2024 21:44:48 [INFO] ApiClient - Connection established
+05-01-2024 21:44:48 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+05-01-2024 21:44:48 [DEBUG] MarketData - Initializing MarketData for identifier: icp
+05-01-2024 21:44:48 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+05-01-2024 21:44:48 [INFO] MarketDataList - Successfully created list of MarketData objects
+05-01-2024 21:44:48 [INFO] MarketData - Market for identifier:icp found
+05-01-2024 21:44:48 [DEBUG] MarketDataCache - Initializing new MarketData object for key: icp_usd_true
+05-01-2024 21:44:48 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/internet-computer/market_chart?vs_currency=usd&days=1
+05-01-2024 21:44:48 [DEBUG] ApiClient - Response code: 429
+05-01-2024 21:44:48 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+05-01-2024 21:44:48 [DEBUG] MarketDataPoint - Initializing market chart for identifier: internet-computer
+05-01-2024 21:44:48 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+05-01-2024 21:44:48 [INFO] MarketDataSeries - Successfully created chart points list
+05-01-2024 21:44:48 [DEBUG] CoinDataSceneController - Initializing chart for market: internet-computer
+05-01-2024 21:44:48 [INFO] HistoryManager - History added for market: Internet Computer
+05-01-2024 21:44:48 [INFO] HistoryManager - History added for market: Internet Computer
+05-01-2024 21:44:49 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/internet-computer/market_chart?vs_currency=usd&days=1
+05-01-2024 21:44:49 [DEBUG] ApiClient - Response code: 429
+05-01-2024 21:44:49 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+05-01-2024 21:44:49 [DEBUG] MarketDataPoint - Initializing market chart for identifier: internet-computer
+05-01-2024 21:44:49 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+05-01-2024 21:44:49 [INFO] MarketDataSeries - Successfully created chart points list
+05-01-2024 21:44:49 [DEBUG] CoinDataSceneController - Initializing chart for market: internet-computer
+05-01-2024 21:44:49 [INFO] HistoryManager - History added for market: Internet Computer
+05-01-2024 21:44:50 [DEBUG] CurrencyList - Initializing CurrencyList class
+05-01-2024 21:44:50 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+05-01-2024 21:44:50 [INFO] CurrencyList - Sucesfully created list of supported currencies
+05-01-2024 21:44:50 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: icp_usd_true
+05-01-2024 21:45:25 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl
+05-01-2024 21:45:25 [DEBUG] ApiClient - Response code: 429
+05-01-2024 21:45:25 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+05-01-2024 21:45:25 [DEBUG] MarketData - Initializing MarketData for identifier: shib
+05-01-2024 21:45:25 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+05-01-2024 21:45:25 [INFO] MarketDataList - Successfully created list of MarketData objects
+05-01-2024 21:45:25 [INFO] MarketData - Market for identifier:shib found
+05-01-2024 21:45:25 [DEBUG] MarketDataCache - Initializing new MarketData object for key: shib_usd_true
+05-01-2024 21:45:25 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/shiba-inu/market_chart?vs_currency=usd&days=1
+05-01-2024 21:45:25 [DEBUG] ApiClient - Response code: 429
+05-01-2024 21:45:25 [ERROR] ApiClient - GET request not worked. Response code: 429. Try again later...
+05-01-2024 21:45:25 [DEBUG] MarketDataPoint - Initializing market chart for identifier: shiba-inu
+05-01-2024 21:45:25 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+05-01-2024 21:45:25 [INFO] MarketDataSeries - Successfully created chart points list
+05-01-2024 21:45:25 [DEBUG] CoinDataSceneController - Initializing chart for market: shiba-inu
+05-01-2024 21:45:25 [INFO] HistoryManager - History added for market: Shiba Inu
+05-01-2024 21:45:25 [INFO] HistoryManager - History added for market: Shiba Inu
+05-01-2024 21:45:29 [DEBUG] CurrencyList - Initializing CurrencyList class
+05-01-2024 21:45:29 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+05-01-2024 21:45:29 [INFO] CurrencyList - Sucesfully created list of supported currencies
+05-01-2024 21:45:30 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: shib_usd_true

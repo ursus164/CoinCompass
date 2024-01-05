@@ -16,10 +16,16 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Controller class for the main scene in a JavaFX application.
+ * This class manages the user interface for searching and displaying cryptocurrency market data.
+ */
 public class MainSceneController {
     @FXML
     public Label errorLabel;
@@ -46,6 +52,7 @@ public class MainSceneController {
     private Scene scene;
     private Parent root;
     private final List<Integer> chartScale = List.of(1,3,5,7,14,21,30);
+    private static final Logger logger = LogManager.getLogger(MainSceneController.class);
 
     public void logout(ActionEvent event) throws IOException {
 
@@ -61,6 +68,13 @@ public class MainSceneController {
 
     }
 
+    /**
+     * Handles the search action when a user searches for market data.
+     * Fetches market data and transitions to the CoinDataScene if a valid market is found.
+     *
+     * @param event The event triggered by the search action.
+     * @throws IOException if loading the FXML resource fails.
+     */
     public void search(ActionEvent event) throws IOException {
 
         if (!searchField.getText().isEmpty()) {
@@ -68,7 +82,7 @@ public class MainSceneController {
             MarketData marketData = MarketDataCache.getMarketData(searchField.getText(),
                     currencyChoice.getValue(), true);
 
-            marketData.setCurrency(currencyChoice.getValue());          // każdy obiekt ma przypisaną walutę parę w jakiej byłwyszukiwany
+            marketData.setCurrency(currencyChoice.getValue());          // each object contains info about pair currency in which it was searched
 
             if(marketData.getSymbol() != null){
 
@@ -99,6 +113,10 @@ public class MainSceneController {
         }
     }
 
+    /**
+     * Initializes the controller class.
+     * Sets up currency choices and chart scale options, and updates the history display.
+     */
     public void initialize() {
 
         CurrencyList list = new CurrencyList();
@@ -118,6 +136,9 @@ public class MainSceneController {
         updateHistoryDisplay();
     }
 
+    /**
+     * Updates the display of the history of market data searches.
+     */
     public void updateHistoryDisplay() {
         List<MarketData> history = HistoryManager.getInstance().getHistory();
         if(history.size() > 0) {
@@ -145,6 +166,17 @@ public class MainSceneController {
             updateSlot(history.get(3),label_slot4,price_slot4,img_slot4,percent_slot4,img_triangle4);
         }
     }
+
+    /**
+     * Updates a single slot with market data information.
+     *
+     * @param data      The MarketData to display.
+     * @param symbol    The label to display the market symbol.
+     * @param price     The text field to display the market price.
+     * @param icon      The image view to display the market icon.
+     * @param percent   The text field to display the market change percentage.
+     * @param triangle  The image view to display the market trend icon.
+     */
     private void updateSlot(MarketData data, Label symbol, TextField price,ImageView icon,TextField percent,ImageView triangle) {
 
         Image image = new Image(data.getIconUrl());

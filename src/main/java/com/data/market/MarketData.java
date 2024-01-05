@@ -6,6 +6,10 @@ import org.apache.logging.log4j.Logger;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * The MarketData class represents detailed information about a specific market.
+ * It includes various attributes like price, volume, market cap and others.
+ */
 public class MarketData {
     private static final String MARKET_LIST_CACHE = "src/cache/market_list_cache.json";
     private static final Logger logger = LogManager.getLogger(MarketData.class);
@@ -14,6 +18,23 @@ public class MarketData {
             low_24h, high_24h, ath, atl, market_cap;
     private int market_cap_rank;
 
+    /**
+     * Constructs a new MarketData object with specific market details.
+     *
+     * @param id                            The market identifier.
+     * @param symbol                        The market symbol.
+     * @param name                          The market name.
+     * @param current_price                 The current price of the market.
+     * @param price_change_24h              The price change in the last 24 hours.
+     * @param price_change_percentage_24h   The price change percentage in the last 24 hours.
+     * @param low_24h                       The lowest price in the last 24 hours.
+     * @param high_24h                      The highest price in the last 24 hours.
+     * @param iconUrl                       The URL of the market icon.
+     * @param ath                           All-time high price.
+     * @param atl                           All-time low price.
+     * @param market_cap                    The market capitalization
+     * @param market_cap_rank               The market capitalization rank.
+     */
     public MarketData(String id, String symbol, String name, double current_price,
                       double price_change_24h, double price_change_percentage_24h,
                       double low_24h, double high_24h, String iconUrl, double ath,
@@ -33,8 +54,15 @@ public class MarketData {
         this.market_cap_rank = market_cap_rank;
     }
 
+    /**
+     * Constructs a new MarketData object by fetching data from an API for a given market.
+     * If the data for the specified market is found, it initializes the MarketData object with this data.
+     *
+     * @param market        The identifier of the market. For e.g. 'bitcoin'
+     * @param vs_currency   The currency to compare against.
+     * @param update        Boolean flag indicating whether to update the cache when fetching data.
+     */
     public MarketData(String market,String vs_currency,Boolean update) {
-        // Currency z listy obsługiwanych przez giełdę
 
         if(vs_currency == null) {
             vs_currency = "usd";        //set default
@@ -46,7 +74,7 @@ public class MarketData {
 
         logger.debug("Initializing MarketData for identifier: " + market);
 
-        MarketData data = getInfo(market);
+        MarketData data = getInfo(market);    // helper object to initialize data
 
         if(data != null) {
             this.id = data.getId();
@@ -66,6 +94,12 @@ public class MarketData {
             logger.warn("No data found for identifier: " + market);
         }
     }
+
+    /**
+     * Returns a string representation of the MarketData object.
+     *
+     * @return  A string representation of the MarketData object.
+     */
     @Override
     public String toString() {
         return "MarketData{" +
@@ -84,6 +118,14 @@ public class MarketData {
                 ", market_cap_rank=" + market_cap_rank +
                 '}';
     }
+
+    /**
+     * Retrieves market information based on the provided input (id, name or symbol).
+     * Searches in a list of MarketData and returns the matching MarketData object if found.
+     *
+     * @param input The identifier (id, name or symbol) to search for.
+     * @return      The MarketData object if found, null otherwise.
+     */
     private MarketData getInfo(String input) {
 
         List<MarketData> jsonList = MarketDataList.convert();
@@ -102,6 +144,8 @@ public class MarketData {
 
         }
     }
+
+    // Getters and setters for all attributes.
     public String getCurrency() {
         return currency;
     }

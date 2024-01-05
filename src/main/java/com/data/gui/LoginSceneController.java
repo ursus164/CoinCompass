@@ -17,6 +17,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+/**
+ * Controller class for the login scene in a JavaFX application.
+ * This class manages the user interface for user login functionality.
+ */
 public class LoginSceneController {
 
     @FXML
@@ -30,6 +34,13 @@ public class LoginSceneController {
     private Scene scene;
     private Parent root;
 
+    /**
+     * Handles the login action when the user attempts to log in.
+     * The method validates the user's credentials and directs them to the main scene of the application.
+     *
+     * @param event The event triggered by the login action.
+     * @throws IOException if loading the FXML resource fails.
+     */
     public void login(ActionEvent event) throws IOException {
         String username = UsernameField.getText();
         String password = PasswordField.getText();

@@ -16,6 +16,9 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import java.time.Instant;
 import java.time.LocalDateTime;
@@ -23,6 +26,10 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
+/**
+ * Controller class for the Coin Data Scene in a JavaFX application.
+ * This class manages the user interface for displaying cryptocurrency market data.
+ */
 public class CoinDataSceneController {
     @FXML
     public TextField crypto_id, crypto_price, crypto_change, atl_value, ath_value,
@@ -42,14 +49,14 @@ public class CoinDataSceneController {
     private String searchText;
     private String crypto;
     private Boolean autoRefresh;
+    private static final Logger logger = LogManager.getLogger(CoinDataSceneController.class);
 
-    public void setStage(Stage stage) {
-        this.stage = stage;
-    }
-
+    /**
+     * Loads and displays market data into the scene based on user-defined parameters.
+     * It fetches data using MarketDataCache and updates UI components accordingly.
+     */
     public void loadData() {
         MarketData marketData = MarketDataCache.getMarketData(searchText, selectedCurrency, autoRefresh);
-
 
         crypto = marketData.getId();
         chartCreate(selectedDays);
@@ -89,7 +96,12 @@ public class CoinDataSceneController {
         HistoryManager.getInstance().addSearch(marketData);
     }
 
-
+    /**
+     * Handles the action to return to the previous scene. It clears cache for previously searched market.
+     *
+     * @param event The event triggered by the user action.
+     * @throws IOException if loading the FXML resource fails.
+     */
     public void getBack(ActionEvent event) throws IOException {
 
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com.data.gui/fxml/MainScene.fxml"));
@@ -107,6 +119,12 @@ public class CoinDataSceneController {
         stage.show();
     }
 
+    /**
+     * Converts a UNIX timestamp to a formatted date string.
+     *
+     * @param timestamp The UNIX timestamp to convert.
+     * @return A formatted date string.
+     */
     public static String convertTimestampToDate(long timestamp) {
         LocalDateTime dateTime = LocalDateTime.ofInstant(Instant.ofEpochMilli(timestamp), ZoneId.systemDefault());
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM HH:mm");
@@ -114,12 +132,19 @@ public class CoinDataSceneController {
         return dateTime.format(formatter);
     }
 
+
+    /**
+     * Creates a chart for displaying market data over a specified number of days.
+     *
+     * @param days The number of days to include in the chart.
+     */
     public void chartCreate(int days) {
-        MarketDataPoint chart = new MarketDataPoint(crypto, selectedCurrency, days);
+        MarketDataPoint chart = new MarketDataPoint(crypto, selectedCurrency, days);        // only to fetch data
 
         List<MarketDataPoint> points = MarketDataSeries.convert();
         XYChart.Series<String, Double> series = new XYChart.Series<>();
 
+        coinChart.getData().clear();        // erase data before adding new
 
         if (points != null) {
             for (MarketDataPoint point : points) {
@@ -129,7 +154,39 @@ public class CoinDataSceneController {
         }
         coinChart.getYAxis().setAutoRanging(true);
         coinChart.getData().add(series);
+
+        logger.debug("Initializing chart for market: " + crypto);
     }
+
+    /**
+     * Handles the action to log out of the application.
+     *
+     * @param event The event triggered by the user action.
+     * @throws IOException if loading the FXML resource fails.
+     */
+    public void logout(ActionEvent event) throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com.data.gui/fxml/LoginScene.fxml"));
+        root = loader.load();
+        scene = new Scene(root);
+
+        LoginSceneController loginSceneController = loader.getController();
+        loginSceneController.setStage(stage);
+
+        stage.setScene(scene);
+        stage.show();
+
+    }
+
+    public void close(ActionEvent event) {
+        stage.close();
+    }
+
+    /**
+     * Refreshes the displayed market data. Reloads all data for e.g. prices, charts etc...
+     *
+     * @param event The event triggered by the user action.
+     */
     public void refreshData(ActionEvent event) {
         loadData();
     }
@@ -144,6 +201,9 @@ public class CoinDataSceneController {
     }
     public void setSelectedDays(int selectedDays) {
         this.selectedDays = selectedDays;
+    }
+    public void setStage(Stage stage) {
+        this.stage = stage;
     }
 }
 
