@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.data.api"},{"l":"com.data.coin"},{"l":"com.data.currency"},{"l":"com.data.gui"},{"l":"com.data.market"}];updateSearchResults();
