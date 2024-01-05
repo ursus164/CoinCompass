@@ -61,3 +61,4 @@ Project Link: [https://github.com/your-username/CoinCompass](https://github.com/
 - [CoinGecko API](https://www.coingecko.com/en/api)
 - [JavaFX](https://openjfx.io/)
 - [Apache Maven](https://maven.apache.org/)
+
