@@ -60,12 +60,12 @@
             <ImageView fx:id="img_triangle1" fitHeight="18.0" fitWidth="21.0" layoutX="21.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
             <TextField fx:id="price_field1" alignment="CENTER" editable="false" focusTraversable="false" layoutX="3.0" layoutY="44.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Price" visible="false">
                <font>
-                  <Font name="System Bold" size="10.0" />
+                  <Font size="10.0" />
                </font>
             </TextField>
             <TextField fx:id="change_field1" alignment="CENTER" editable="false" focusTraversable="false" layoutX="4.0" layoutY="100.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Change (%)" visible="false">
                <font>
-                  <Font name="System Bold" size="10.0" />
+                  <Font size="10.0" />
                </font>
             </TextField>
          </children>
@@ -90,12 +90,12 @@
             <ImageView fx:id="img_triangle2" fitHeight="18.0" fitWidth="21.0" layoutX="22.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" />
             <TextField fx:id="price_field2" alignment="CENTER" editable="false" focusTraversable="false" layoutX="4.0" layoutY="46.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Price" visible="false">
                <font>
-                  <Font name="System Bold" size="10.0" />
+                  <Font size="10.0" />
                </font>
             </TextField>
             <TextField fx:id="change_field2" alignment="CENTER" editable="false" focusTraversable="false" layoutX="4.0" layoutY="101.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Change (%)" visible="false">
                <font>
-                  <Font name="System Bold" size="10.0" />
+                  <Font size="10.0" />
                </font>
             </TextField>
          </children>
@@ -120,12 +120,12 @@
             <ImageView fx:id="img_triangle3" fitHeight="18.0" fitWidth="21.0" layoutX="14.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" />
             <TextField fx:id="price_field3" alignment="CENTER" editable="false" focusTraversable="false" layoutX="4.0" layoutY="46.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Price" visible="false">
                <font>
-                  <Font name="System Bold" size="10.0" />
+                  <Font size="10.0" />
                </font>
             </TextField>
             <TextField fx:id="change_field3" alignment="CENTER" editable="false" focusTraversable="false" layoutX="4.0" layoutY="101.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Change (%)" visible="false">
                <font>
-                  <Font name="System Bold" size="10.0" />
+                  <Font size="10.0" />
                </font>
             </TextField>
          </children>
@@ -150,18 +150,19 @@
             <ImageView fx:id="img_triangle4" fitHeight="18.0" fitWidth="21.0" layoutX="14.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" />
             <TextField fx:id="price_field4" alignment="CENTER" editable="false" focusTraversable="false" layoutX="4.0" layoutY="43.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Price" visible="false">
                <font>
-                  <Font name="System Bold" size="10.0" />
+                  <Font size="10.0" />
                </font>
             </TextField>
             <TextField fx:id="change_field4" alignment="CENTER" editable="false" focusTraversable="false" layoutX="4.0" layoutY="101.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Change (%)" visible="false">
                <font>
-                  <Font name="System Bold" size="10.0" />
+                  <Font size="10.0" />
                </font>
             </TextField>
          </children>
       </Pane>
       <Label fx:id="FavouritesLabel" alignment="CENTER" layoutX="22.0" layoutY="112.0" prefHeight="32.0" prefWidth="578.0" text="History" />
-      <ChoiceBox fx:id="currencyChoice" layoutX="21.0" layoutY="54.0" prefHeight="26.0" prefWidth="86.0" stylesheets="@../style/style.css" />
+      <ChoiceBox fx:id="currencyChoice" layoutX="22.0" layoutY="53.0" prefHeight="18.0" prefWidth="86.0" stylesheets="@../style/style.css" />
       <Label fx:id="errorLabel" alignment="CENTER_RIGHT" layoutX="145.0" layoutY="82.0" prefHeight="18.0" prefWidth="238.0" textFill="#ff0303" visible="false" />
+      <ChoiceBox fx:id="chartChoice" layoutX="435.0" layoutY="112.0" prefWidth="150.0" />
    </children>
 </AnchorPane>

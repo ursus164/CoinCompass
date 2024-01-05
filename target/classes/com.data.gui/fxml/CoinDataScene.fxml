@@ -58,7 +58,7 @@
             <Font name="Arial Black" size="18.0" />
          </font>
       </TextField>
-      <Label layoutX="12.0" layoutY="309.0" prefHeight="222.0" prefWidth="582.0" styleClass="squareBox" stylesheets="@../style/style.css" />
+      <Label layoutX="12.0" layoutY="294.0" prefHeight="276.0" prefWidth="582.0" styleClass="squareBox" stylesheets="@../style/style.css" />
       <TextField editable="false" focusTraversable="false" layoutX="19.0" layoutY="144.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="ATH:">
          <font>
             <Font name="System Italic" size="15.0" />
@@ -70,14 +70,14 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
-      <Button fx:id="back_button" layoutX="14.0" layoutY="540.0" mnemonicParsing="false" onAction="#getBack" prefHeight="5.0" prefWidth="50.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Back" />
+      <Button fx:id="back_button" focusTraversable="false" layoutX="536.0" layoutY="45.0" mnemonicParsing="false" onAction="#getBack" prefHeight="5.0" prefWidth="50.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Back" />
       <ImageView fx:id="triangle_symbol" fitHeight="20.0" fitWidth="21.0" layoutX="295.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
-      <LineChart layoutX="22.0" layoutY="313.0" prefHeight="222.0" prefWidth="566.0">
+      <LineChart fx:id="coinChart" animated="false" createSymbols="false" layoutX="4.0" layoutY="290.0" legendVisible="false" prefHeight="230.0" prefWidth="591.0">
         <xAxis>
-          <CategoryAxis side="BOTTOM" />
+          <CategoryAxis prefHeight="21.0" prefWidth="536.0" side="BOTTOM" />
         </xAxis>
         <yAxis>
-          <NumberAxis side="LEFT" />
+          <NumberAxis forceZeroInRange="false" side="LEFT" />
         </yAxis>
       </LineChart>
       <TextField editable="false" focusTraversable="false" layoutX="18.0" layoutY="197.0" prefHeight="38.0" prefWidth="251.0" styleClass="squareBox" stylesheets="@../style/style.css" text="MARKET CAP:">
@@ -130,6 +130,6 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
-      <Button fx:id="refreshButton" layoutX="74.0" layoutY="540.0" mnemonicParsing="false" onAction="#refreshData" prefHeight="26.0" prefWidth="65.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Refresh" />
+      <Button fx:id="refreshButton" focusTraversable="false" layoutX="469.0" layoutY="45.0" mnemonicParsing="false" onAction="#refreshData" prefHeight="5.0" prefWidth="60.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Refresh" />
    </children>
 </AnchorPane>

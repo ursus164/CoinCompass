@@ -6,6 +6,7 @@ import java.util.List;
 
 
 public class HistoryManager {
+    //Singleton
     private static HistoryManager instance;
     private LinkedList<MarketData> history;
 
@@ -23,6 +24,7 @@ public class HistoryManager {
     public void addSearch(MarketData data) {
         history.remove(data);
         history.addFirst(data);
+
         while (history.size() > 4) {
             history.removeLast();
         }

@@ -8,6 +8,7 @@ public class MarketDataCache {
 
     public static MarketData getMarketData(String searchText, String currency, Boolean autoRefresh) {
         String key = searchText + "_" + currency + "_" + autoRefresh;
+
         if (!cache.containsKey(key)) {
             cache.put(key, new MarketData(searchText, currency, autoRefresh));
         }
@@ -15,6 +16,7 @@ public class MarketDataCache {
     }
     public static void clearCacheFor(String searchText, String currency, Boolean autoRefresh) {
         String key = createCacheKey(searchText, currency, autoRefresh);
+
         cache.remove(key);
     }
 

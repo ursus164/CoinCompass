@@ -20,29 +20,15 @@ import java.nio.file.Paths;
 public class LoginSceneController {
 
     @FXML
-    TextField UsernameField;
+    TextField UsernameField, UsernameRegisterField, PasswordRegisterField, PasswordRepeatField;
     @FXML
     PasswordField PasswordField;
     @FXML
-    Label InvalidLabel;
-    @FXML
-    Label AccountExists;
-    @FXML
-    Label SuccesfullRegister;
-    @FXML
-    Label PasswordsNotMatch;
-    @FXML
-    TextField UsernameRegisterField;
-    @FXML
-    TextField PasswordRegisterField;
-    @FXML
-    TextField PasswordRepeatField;
-
+    Label InvalidLabel, AccountExists, SuccesfullRegister, PasswordsNotMatch;
 
     private Stage stage;
     private Scene scene;
     private Parent root;
-    private static final String userList_cache = "src/cache/user_data.json";
 
     public void login(ActionEvent event) throws IOException {
         String username = UsernameField.getText();

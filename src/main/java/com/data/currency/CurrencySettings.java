@@ -1,8 +1,9 @@
 package com.data.currency;
 
 public class CurrencySettings {
+    // singleton
     private static CurrencySettings instance;
-    private String selectedCurrency = "usd"; // domyślna wartość
+    private String selectedCurrency = "usd"; // default
 
     private CurrencySettings() {}
 

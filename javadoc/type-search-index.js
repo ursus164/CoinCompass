@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.data.api","l":"ApiClient"},{"p":"com.data.api","l":"CoinData"},{"p":"com.data.api","l":"CoinDataList"},{"p":"com.data.api","l":"Currency"},{"p":"com.data.api","l":"CurrencyList"},{"p":"com.data.api","l":"MarketData"},{"p":"com.data.api","l":"MarketDataList"}];updateSearchResults();
