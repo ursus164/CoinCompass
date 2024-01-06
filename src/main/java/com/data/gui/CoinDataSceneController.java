@@ -116,6 +116,7 @@ public class CoinDataSceneController {
         MarketDataCache.clearCacheFor(searchText, selectedCurrency, autoRefresh);
 
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
@@ -174,6 +175,7 @@ public class CoinDataSceneController {
         loginSceneController.setStage(stage);
 
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
 
     }

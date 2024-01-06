@@ -8,6 +8,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -23,6 +25,8 @@ import java.nio.file.Paths;
  */
 public class LoginSceneController {
 
+    @FXML
+    public ImageView appLogo;
     @FXML
     TextField UsernameField, UsernameRegisterField, PasswordRegisterField, PasswordRepeatField;
     @FXML
@@ -56,6 +60,7 @@ public class LoginSceneController {
 
             scene = new Scene(root);
             stage.setScene(scene);
+            stage.setResizable(false);
             stage.show();
 
 //        } else {
@@ -64,6 +69,12 @@ public class LoginSceneController {
 //            PasswordField.setText("");
         }
 //    }
+    public void initialize() {
+        String iconPath = getClass().getResource("/com.data.gui/images/bitcoin.png").toExternalForm();
+        Image appIcon = new Image(iconPath);
+
+        appLogo.setImage(appIcon);
+    }
     public void setStage(Stage stage) {
         this.stage = stage;
     }

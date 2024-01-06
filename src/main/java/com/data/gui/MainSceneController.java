@@ -101,6 +101,7 @@ public class MainSceneController {
                 controller.loadData();
 
                 stage.setScene(scene);
+                stage.setResizable(false);
                 stage.show();
 
                 HistoryManager.getInstance().addSearch(marketData);

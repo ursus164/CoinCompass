@@ -1,18 +1,22 @@
 package com.data.api;
 
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Optional;
 
 /**
  * The ApiClient class provides methods to fetch data from a given URL.
  * It supports caching of the fetched data and can update the cache if required.
  */
-public class ApiClient {
+public class  ApiClient {
     private static final Logger logger = LogManager.getLogger(ApiClient.class);
+    private static int responseCode;
 
     /**
      * Fetches data from the specified URL and caches it.
@@ -35,11 +39,13 @@ public class ApiClient {
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
 
-                int responseCode = conn.getResponseCode();
+               responseCode = conn.getResponseCode();
 
                 logger.debug("Response code: " + responseCode);
+                if (responseCode == 429) {
+                    showAlertRetry(link,cache,update);
 
-                if (responseCode == 200) {
+                } else if (responseCode == 200) {
                     logger.info("Connection established");
 
                     BufferedWriter writer = getWriter(conn, cacheFile);
@@ -79,6 +85,25 @@ public class ApiClient {
         BufferedWriter writer = new BufferedWriter(new FileWriter(cacheFile));
         writer.write(response.toString());
         return writer;
+    }
+
+    private void showAlertRetry(String link, String cache, Boolean update) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle("Błąd");
+        alert.setHeaderText("Przekroczono limit połączeń API");
+        alert.setContentText("Czy chcesz spróbować ponownie?");
+
+        ButtonType retryButton = new ButtonType("Spróbuj ponownie");
+        ButtonType closeButton = new ButtonType("Zamknij aplikację");
+
+        alert.getButtonTypes().setAll(retryButton,closeButton);
+
+        Optional<ButtonType> result = alert.showAndWait();
+        if(result.isPresent() && result.get() == retryButton) {
+            fetchData(link,cache,update);
+        } else {
+            System.exit(0);
+        }
     }
 }
 

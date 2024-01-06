@@ -6,8 +6,8 @@
 
   <groupId>com.data</groupId>
   <artifactId>data</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>data</name>
+  <version>0.0</version>
+  <name>CoinCompass</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,12 +56,12 @@
       <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-databind</artifactId>
-          <version>2.9.6</version>
+          <version>2.14.0-rc1</version>
       </dependency>
       <dependency>
           <groupId>org.json</groupId>
           <artifactId>json</artifactId>
-          <version>20230227</version>
+          <version>20231013</version>
       </dependency>
       <dependency>
           <groupId>org.apache.logging.log4j</groupId>
@@ -70,11 +70,6 @@
       </dependency>
 
       <!-- Zależność Log4j2 Core -->
-      <dependency>
-          <groupId>org.apache.logging.log4j</groupId>
-          <artifactId>log4j-core</artifactId>
-          <version>2.17.1</version>
-      </dependency>
       <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-core</artifactId>
@@ -93,6 +88,20 @@
           <target>19</target>
         </configuration>
       </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.2.0</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <addClasspath>true</addClasspath>
+                        <mainClass>com.data.gui.MainStarter</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+
       <plugin>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-maven-plugin</artifactId>
@@ -102,7 +111,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.data.data/com.data.data.HelloApplication</mainClass>
+              <mainClass>com.data.gui.MainStarter</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

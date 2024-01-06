@@ -7,12 +7,13 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="381.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.data.gui.LoginSceneController">
+<AnchorPane minWidth="450.0" prefHeight="359.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.data.gui.LoginSceneController">
    <children>
-      <MenuBar layoutY="2.0" prefHeight="26.0" prefWidth="600.0">
+      <MenuBar layoutX="5.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="443.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
@@ -31,35 +32,35 @@
           </Menu>
         </menus>
       </MenuBar>
-      <Label alignment="CENTER" layoutX="35.0" layoutY="38.0" prefHeight="55.0" prefWidth="528.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Welcome to CoinCompass!">
+      <Label alignment="CENTER" layoutX="24.0" layoutY="40.0" prefHeight="55.0" prefWidth="402.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Welcome to CoinCompass!">
          <font>
             <Font name="Corbel" size="34.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="180.0" layoutY="117.0" prefHeight="239.0" prefWidth="238.0" styleClass="squareBox" stylesheets="@../style/style.css">
+      <Label alignment="CENTER" layoutX="183.0" layoutY="105.0" prefHeight="239.0" prefWidth="238.0" styleClass="squareBox" stylesheets="@../style/style.css">
          <font>
             <Font name="Corbel" size="34.0" />
          </font>
       </Label>
-      <Button fx:id="LogInButton" layoutX="252.0" layoutY="281.0" mnemonicParsing="false" onAction="#login" prefHeight="35.0" prefWidth="94.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Log in">
+      <Button fx:id="LogInButton" layoutX="255.0" layoutY="282.0" mnemonicParsing="false" onAction="#login" prefHeight="35.0" prefWidth="94.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Log in">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Label layoutX="189.0" layoutY="183.0" prefHeight="26.0" prefWidth="67.0" text="Username:">
+      <Label layoutX="192.0" layoutY="184.0" prefHeight="26.0" prefWidth="67.0" text="Username:">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="189.0" layoutY="218.0" prefHeight="26.0" prefWidth="67.0" text="Password:">
+      <Label layoutX="192.0" layoutY="219.0" prefHeight="26.0" prefWidth="67.0" text="Password:">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <TextField fx:id="UsernameField" layoutX="272.0" layoutY="183.0" prefHeight="26.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css" />
-      <PasswordField fx:id="PasswordField" layoutX="272.0" layoutY="218.0" prefHeight="26.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css" />
+      <TextField fx:id="UsernameField" layoutX="275.0" layoutY="184.0" prefHeight="26.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css" />
+      <PasswordField fx:id="PasswordField" layoutX="275.0" layoutY="219.0" prefHeight="26.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css" />
       <Label fx:id="InvalidLabel" layoutX="68.0" layoutY="263.0" prefHeight="18.0" prefWidth="170.0" text="Invalid username or  password!" textFill="#fa0000" visible="false" />
-      <Label layoutX="189.0" layoutY="130.0" prefHeight="26.0" prefWidth="219.0" text="Already have an account? Log In">
+      <Label layoutX="192.0" layoutY="131.0" prefHeight="26.0" prefWidth="219.0" text="Already have an account? Log In">
          <font>
             <Font name="Corbel" size="16.0" />
          </font>
@@ -67,15 +68,11 @@
       <Label fx:id="AccountExists" layoutX="353.0" layoutY="263.0" prefHeight="18.0" prefWidth="170.0" text="Given username alreadu exists!" textFill="#fa0000" visible="false" />
       <Label fx:id="SuccesfullRegister" layoutX="353.0" layoutY="263.0" prefHeight="18.0" prefWidth="170.0" text="Account created succesfully!" textFill="#08fa00" visible="false" />
       <Label fx:id="PasswordsNotMatch" layoutX="353.0" layoutY="263.0" prefHeight="18.0" prefWidth="170.0" text="Given passwords don't match" textFill="#fa2300" visible="false" />
-      <Label alignment="CENTER" layoutX="459.0" layoutY="117.0" prefHeight="239.0" prefWidth="103.0" styleClass="squareBox" stylesheets="@../style/style.css">
+      <Label alignment="CENTER" layoutX="24.0" layoutY="105.0" prefHeight="239.0" prefWidth="146.0" styleClass="squareBox" stylesheets="@../style/style.css">
          <font>
             <Font name="Corbel" size="34.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="35.0" layoutY="117.0" prefHeight="239.0" prefWidth="103.0" styleClass="squareBox" stylesheets="@../style/style.css">
-         <font>
-            <Font name="Corbel" size="34.0" />
-         </font>
-      </Label>
+      <ImageView fx:id="appLogo" fitHeight="119.0" fitWidth="119.0" layoutX="38.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>
