@@ -51,6 +51,7 @@ public class MainSceneController {
     private Stage stage;
     private Scene scene;
     private Parent root;
+    private String selectedCurrency;
     private final List<Integer> chartScale = List.of(1,3,5,7,14,21,30);
     private static final Logger logger = LogManager.getLogger(MainSceneController.class);
 
@@ -119,7 +120,6 @@ public class MainSceneController {
      * Sets up currency choices and chart scale options, and updates the history display.
      */
     public void initialize() {
-
         CurrencyList list = new CurrencyList();
         List<String> currencies = list.getAllCurrencies();
 
@@ -128,19 +128,23 @@ public class MainSceneController {
 
         currencyChoice.getItems().addAll(currencies);
         currencyChoice.setValue(CurrencySettings.getInstance().getSelectedCurrency());
+        System.out.println("Waluta z klasy CurrencySettings podczas initialize: " + CurrencySettings.getInstance().getSelectedCurrency());
         currencyChoice.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observableValue, String oldVal, String newVal) {
                 CurrencySettings.getInstance().setSelectedCurrency(newVal);
             }
         });
+        System.out.println("Waluta z klasy CurrencySettings podczas initialize ale przed metoda updateHistoryDisplay: " + CurrencySettings.getInstance().getSelectedCurrency());
         updateHistoryDisplay();
+
     }
 
     /**
      * Updates the display of the history of market data searches.
      */
     public void updateHistoryDisplay() {
+        System.out.println("Metoda updateHistoryDisplay waluta z klasy currencysettings: " + CurrencySettings.getInstance().getSelectedCurrency());
         List<MarketData> history = HistoryManager.getInstance().getHistory();
         if(history.size() > 0) {
             price_field1.setVisible(true);
@@ -211,5 +215,11 @@ public class MainSceneController {
 
     public void close(ActionEvent event) {
         stage.close();
+    }
+    public void setSelectedCurrency(String currency) {
+        this.selectedCurrency = currency;
+    }
+    public String getSelectedCurrency() {
+        return this.selectedCurrency;
     }
 }

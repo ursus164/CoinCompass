@@ -23,8 +23,8 @@ import java.util.List;
  * Main class for the JavaFX application.
  * This class is responsible for initializing and starting the primary stage of the application.
  */
-public class MainStarter extends Application {
-    private static final Logger logger = LogManager.getLogger(MainStarter.class);
+public class Main extends Application {
+    private static final Logger logger = LogManager.getLogger(Main.class);
 
     /**
      * Main method to launch the application.

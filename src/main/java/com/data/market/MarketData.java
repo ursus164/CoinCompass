@@ -68,7 +68,7 @@ public class MarketData {
             vs_currency = "usd";        //set default
         }
         vs_currency = vs_currency.toLowerCase();
-        String MARKET_LIST_URL = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=" + vs_currency + "&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl";
+        String MARKET_LIST_URL = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=" + vs_currency + "&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6";
 
         new ApiClient().fetchData(MARKET_LIST_URL,MARKET_LIST_CACHE,update);
 
