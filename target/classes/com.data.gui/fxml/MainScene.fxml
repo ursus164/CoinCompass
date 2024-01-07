@@ -57,7 +57,7 @@
                <font>
                   <Font name="System Bold" size="14.0" />
                </font></TextField>
-            <ImageView fx:id="img_triangle1" fitHeight="18.0" fitWidth="21.0" layoutX="21.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="img_triangle1" fitHeight="18.0" fitWidth="21.0" layoutX="15.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
             <TextField fx:id="price_field1" alignment="CENTER" editable="false" focusTraversable="false" layoutX="3.0" layoutY="44.0" prefHeight="18.0" prefWidth="122.0" styleClass="squareBox" stylesheets="@../style/style.css" text="Price" visible="false">
                <font>
                   <Font size="10.0" />

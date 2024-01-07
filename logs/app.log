@@ -1,112 +1,93 @@
-07-01-2024 20:00:00 [INFO] Main - Log file data has been cleared
-07-01-2024 20:00:01 [DEBUG] CurrencyList - Initializing CurrencyList class
-07-01-2024 20:00:01 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
-07-01-2024 20:00:01 [INFO] CurrencyList - Sucesfully created list of supported currencies
-07-01-2024 20:00:05 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aed&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
-07-01-2024 20:00:06 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:00:06 [INFO] ApiClient - Connection established
-07-01-2024 20:00:06 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
-07-01-2024 20:00:06 [DEBUG] MarketData - Initializing MarketData for identifier: eth
-07-01-2024 20:00:06 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-07-01-2024 20:00:06 [INFO] MarketDataList - Successfully created list of MarketData objects
-07-01-2024 20:00:06 [INFO] MarketData - Market for identifier:eth found
-07-01-2024 20:00:06 [DEBUG] MarketDataCache - Initializing new MarketData object for key: eth_aed_true
-07-01-2024 20:00:06 [INFO] CoinDataSceneController - Selected currency before loading: aed
-07-01-2024 20:00:06 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=aed&days=1
-07-01-2024 20:00:06 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:00:06 [INFO] ApiClient - Connection established
-07-01-2024 20:00:06 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
-07-01-2024 20:00:06 [DEBUG] MarketDataPoint - Initializing market chart for identifier: ethereum
-07-01-2024 20:00:06 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-07-01-2024 20:00:06 [INFO] MarketDataSeries - Successfully created chart points list
-07-01-2024 20:00:06 [DEBUG] CoinDataSceneController - Initializing chart for market: ethereum
-07-01-2024 20:00:06 [INFO] HistoryManager - History added for market: Ethereum
-07-01-2024 20:00:07 [INFO] HistoryManager - History added for market: Ethereum
-07-01-2024 20:00:08 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aed&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
-07-01-2024 20:00:08 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:00:08 [INFO] ApiClient - Connection established
-07-01-2024 20:00:08 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
-07-01-2024 20:00:08 [DEBUG] MarketData - Initializing MarketData for identifier: eth
-07-01-2024 20:00:08 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-07-01-2024 20:00:08 [INFO] MarketDataList - Successfully created list of MarketData objects
-07-01-2024 20:00:08 [INFO] MarketData - Market for identifier:eth found
-07-01-2024 20:00:08 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=aed&days=1
-07-01-2024 20:00:08 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:00:08 [INFO] ApiClient - Connection established
-07-01-2024 20:00:08 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
-07-01-2024 20:00:08 [DEBUG] MarketDataPoint - Initializing market chart for identifier: ethereum
-07-01-2024 20:00:08 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-07-01-2024 20:00:08 [INFO] MarketDataSeries - Successfully created chart points list
-07-01-2024 20:00:08 [DEBUG] CoinDataSceneController - Initializing chart for market: ethereum
-07-01-2024 20:00:08 [INFO] HistoryManager - History added for market: Ethereum
-07-01-2024 20:00:10 [DEBUG] CurrencyList - Initializing CurrencyList class
-07-01-2024 20:00:10 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
-07-01-2024 20:00:10 [INFO] CurrencyList - Sucesfully created list of supported currencies
-07-01-2024 20:00:10 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: eth_aed_true
-07-01-2024 20:00:19 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
-07-01-2024 20:00:19 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:00:19 [INFO] ApiClient - Connection established
-07-01-2024 20:00:19 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
-07-01-2024 20:00:19 [DEBUG] MarketData - Initializing MarketData for identifier: eth
-07-01-2024 20:00:19 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-07-01-2024 20:00:19 [INFO] MarketDataList - Successfully created list of MarketData objects
-07-01-2024 20:00:19 [INFO] MarketData - Market for identifier:eth found
-07-01-2024 20:00:19 [DEBUG] MarketDataCache - Initializing new MarketData object for key: eth_usd_true
-07-01-2024 20:00:19 [INFO] CoinDataSceneController - Selected currency before loading: usd
-07-01-2024 20:00:19 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=1
-07-01-2024 20:00:19 [DEBUG] ApiClient - Response code: 429
-07-01-2024 20:01:51 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=1
-07-01-2024 20:01:52 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:01:52 [INFO] ApiClient - Connection established
-07-01-2024 20:01:52 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
-07-01-2024 20:01:52 [DEBUG] MarketDataPoint - Initializing market chart for identifier: ethereum
-07-01-2024 20:01:52 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-07-01-2024 20:01:52 [INFO] MarketDataSeries - Successfully created chart points list
-07-01-2024 20:01:52 [DEBUG] CoinDataSceneController - Initializing chart for market: ethereum
-07-01-2024 20:01:52 [INFO] HistoryManager - History added for market: Ethereum
-07-01-2024 20:01:52 [INFO] HistoryManager - History added for market: Ethereum
-07-01-2024 20:02:00 [DEBUG] CurrencyList - Initializing CurrencyList class
-07-01-2024 20:02:00 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
-07-01-2024 20:02:00 [INFO] CurrencyList - Sucesfully created list of supported currencies
-07-01-2024 20:02:00 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: eth_usd_true
-07-01-2024 20:02:43 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
-07-01-2024 20:02:44 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:02:44 [INFO] ApiClient - Connection established
-07-01-2024 20:02:44 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
-07-01-2024 20:02:44 [DEBUG] MarketData - Initializing MarketData for identifier: btc
-07-01-2024 20:02:44 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-07-01-2024 20:02:44 [INFO] MarketDataList - Successfully created list of MarketData objects
-07-01-2024 20:02:44 [INFO] MarketData - Market for identifier:btc found
-07-01-2024 20:02:44 [DEBUG] MarketDataCache - Initializing new MarketData object for key: btc_eur_true
-07-01-2024 20:02:44 [INFO] CoinDataSceneController - Selected currency before loading: eur
-07-01-2024 20:02:44 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=eur&days=1
-07-01-2024 20:02:45 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:02:45 [INFO] ApiClient - Connection established
-07-01-2024 20:02:45 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
-07-01-2024 20:02:45 [DEBUG] MarketDataPoint - Initializing market chart for identifier: bitcoin
-07-01-2024 20:02:45 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-07-01-2024 20:02:45 [INFO] MarketDataSeries - Successfully created chart points list
-07-01-2024 20:02:45 [DEBUG] CoinDataSceneController - Initializing chart for market: bitcoin
-07-01-2024 20:02:45 [INFO] HistoryManager - History added for market: Bitcoin
-07-01-2024 20:02:45 [INFO] HistoryManager - History added for market: Bitcoin
-07-01-2024 20:03:49 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
-07-01-2024 20:03:49 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:03:49 [INFO] ApiClient - Connection established
-07-01-2024 20:03:49 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
-07-01-2024 20:03:49 [DEBUG] MarketData - Initializing MarketData for identifier: btc
-07-01-2024 20:03:49 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
-07-01-2024 20:03:49 [INFO] MarketDataList - Successfully created list of MarketData objects
-07-01-2024 20:03:49 [INFO] MarketData - Market for identifier:btc found
-07-01-2024 20:03:49 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=eur&days=1
-07-01-2024 20:03:49 [DEBUG] ApiClient - Response code: 200
-07-01-2024 20:03:49 [INFO] ApiClient - Connection established
-07-01-2024 20:03:49 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
-07-01-2024 20:03:49 [DEBUG] MarketDataPoint - Initializing market chart for identifier: bitcoin
-07-01-2024 20:03:49 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
-07-01-2024 20:03:49 [INFO] MarketDataSeries - Successfully created chart points list
-07-01-2024 20:03:49 [DEBUG] CoinDataSceneController - Initializing chart for market: bitcoin
-07-01-2024 20:03:49 [INFO] HistoryManager - History added for market: Bitcoin
-07-01-2024 20:03:54 [DEBUG] CurrencyList - Initializing CurrencyList class
-07-01-2024 20:03:54 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
-07-01-2024 20:03:54 [INFO] CurrencyList - Sucesfully created list of supported currencies
-07-01-2024 20:03:54 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: btc_eur_true
+07-01-2024 20:17:37 [INFO] Main - Log file data has been cleared
+07-01-2024 20:17:44 [DEBUG] CurrencyList - Initializing CurrencyList class
+07-01-2024 20:17:44 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+07-01-2024 20:17:44 [INFO] CurrencyList - Sucesfully created list of supported currencies
+07-01-2024 20:17:53 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=aed&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
+07-01-2024 20:17:54 [DEBUG] ApiClient - Response code: 200
+07-01-2024 20:17:54 [INFO] ApiClient - Connection established
+07-01-2024 20:17:54 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+07-01-2024 20:17:54 [DEBUG] MarketData - Initializing MarketData for identifier: btc
+07-01-2024 20:17:54 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+07-01-2024 20:17:54 [INFO] MarketDataList - Successfully created list of MarketData objects
+07-01-2024 20:17:54 [INFO] MarketData - Market for identifier:btc found
+07-01-2024 20:17:54 [DEBUG] MarketDataCache - Initializing new MarketData object for key: btc_aed_true
+07-01-2024 20:17:54 [INFO] CoinDataSceneController - Selected currency before loading: aed
+07-01-2024 20:17:54 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=aed&days=1
+07-01-2024 20:17:55 [DEBUG] ApiClient - Response code: 200
+07-01-2024 20:17:55 [INFO] ApiClient - Connection established
+07-01-2024 20:17:55 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
+07-01-2024 20:17:55 [DEBUG] MarketDataPoint - Initializing market chart for identifier: bitcoin
+07-01-2024 20:17:55 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+07-01-2024 20:17:55 [INFO] MarketDataSeries - Successfully created chart points list
+07-01-2024 20:17:55 [DEBUG] CoinDataSceneController - Initializing chart for market: bitcoin
+07-01-2024 20:17:55 [INFO] HistoryManager - History added for market: Bitcoin
+07-01-2024 20:17:55 [INFO] HistoryManager - History added for market: Bitcoin
+07-01-2024 20:18:03 [DEBUG] CurrencyList - Initializing CurrencyList class
+07-01-2024 20:18:03 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+07-01-2024 20:18:03 [INFO] CurrencyList - Sucesfully created list of supported currencies
+07-01-2024 20:18:04 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: btc_aed_true
+07-01-2024 20:18:20 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
+07-01-2024 20:18:20 [DEBUG] ApiClient - Response code: 200
+07-01-2024 20:18:20 [INFO] ApiClient - Connection established
+07-01-2024 20:18:20 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+07-01-2024 20:18:20 [DEBUG] MarketData - Initializing MarketData for identifier: shiba-inu
+07-01-2024 20:18:20 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+07-01-2024 20:18:20 [INFO] MarketDataList - Successfully created list of MarketData objects
+07-01-2024 20:18:20 [INFO] MarketData - Market for identifier:shiba-inu found
+07-01-2024 20:18:20 [DEBUG] MarketDataCache - Initializing new MarketData object for key: shiba-inu_eur_true
+07-01-2024 20:18:20 [INFO] CoinDataSceneController - Selected currency before loading: eur
+07-01-2024 20:18:20 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/shiba-inu/market_chart?vs_currency=eur&days=1
+07-01-2024 20:18:20 [DEBUG] ApiClient - Response code: 200
+07-01-2024 20:18:20 [INFO] ApiClient - Connection established
+07-01-2024 20:18:20 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
+07-01-2024 20:18:20 [DEBUG] MarketDataPoint - Initializing market chart for identifier: shiba-inu
+07-01-2024 20:18:20 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+07-01-2024 20:18:20 [INFO] MarketDataSeries - Successfully created chart points list
+07-01-2024 20:18:20 [DEBUG] CoinDataSceneController - Initializing chart for market: shiba-inu
+07-01-2024 20:18:21 [INFO] HistoryManager - History added for market: Shiba Inu
+07-01-2024 20:18:21 [INFO] HistoryManager - History added for market: Shiba Inu
+07-01-2024 20:18:48 [DEBUG] CurrencyList - Initializing CurrencyList class
+07-01-2024 20:18:48 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+07-01-2024 20:18:48 [INFO] CurrencyList - Sucesfully created list of supported currencies
+07-01-2024 20:18:48 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: shiba-inu_eur_true
+07-01-2024 20:19:10 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=gbp&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
+07-01-2024 20:19:10 [DEBUG] ApiClient - Response code: 200
+07-01-2024 20:19:10 [INFO] ApiClient - Connection established
+07-01-2024 20:19:10 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+07-01-2024 20:19:10 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+07-01-2024 20:19:10 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+07-01-2024 20:19:10 [INFO] MarketDataList - Successfully created list of MarketData objects
+07-01-2024 20:19:10 [INFO] MarketData - Market for identifier:eth found
+07-01-2024 20:19:10 [DEBUG] MarketDataCache - Initializing new MarketData object for key: eth_gbp_true
+07-01-2024 20:19:10 [INFO] CoinDataSceneController - Selected currency before loading: gbp
+07-01-2024 20:19:10 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=gbp&days=1
+07-01-2024 20:19:11 [DEBUG] ApiClient - Response code: 200
+07-01-2024 20:19:11 [INFO] ApiClient - Connection established
+07-01-2024 20:19:11 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
+07-01-2024 20:19:11 [DEBUG] MarketDataPoint - Initializing market chart for identifier: ethereum
+07-01-2024 20:19:11 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+07-01-2024 20:19:11 [INFO] MarketDataSeries - Successfully created chart points list
+07-01-2024 20:19:11 [DEBUG] CoinDataSceneController - Initializing chart for market: ethereum
+07-01-2024 20:19:11 [INFO] HistoryManager - History added for market: Ethereum
+07-01-2024 20:19:11 [INFO] HistoryManager - History added for market: Ethereum
+07-01-2024 20:19:28 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=gbp&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
+07-01-2024 20:19:28 [DEBUG] ApiClient - Response code: 200
+07-01-2024 20:19:28 [INFO] ApiClient - Connection established
+07-01-2024 20:19:28 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+07-01-2024 20:19:28 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+07-01-2024 20:19:28 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+07-01-2024 20:19:28 [INFO] MarketDataList - Successfully created list of MarketData objects
+07-01-2024 20:19:28 [INFO] MarketData - Market for identifier:eth found
+07-01-2024 20:19:28 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=gbp&days=1
+07-01-2024 20:19:28 [DEBUG] ApiClient - Response code: 200
+07-01-2024 20:19:28 [INFO] ApiClient - Connection established
+07-01-2024 20:19:28 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
+07-01-2024 20:19:28 [DEBUG] MarketDataPoint - Initializing market chart for identifier: ethereum
+07-01-2024 20:19:28 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+07-01-2024 20:19:28 [INFO] MarketDataSeries - Successfully created chart points list
+07-01-2024 20:19:28 [DEBUG] CoinDataSceneController - Initializing chart for market: ethereum
+07-01-2024 20:19:28 [INFO] HistoryManager - History added for market: Ethereum
+07-01-2024 20:19:32 [DEBUG] CurrencyList - Initializing CurrencyList class
+07-01-2024 20:19:32 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+07-01-2024 20:19:32 [INFO] CurrencyList - Sucesfully created list of supported currencies
+07-01-2024 20:19:32 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: eth_gbp_true
