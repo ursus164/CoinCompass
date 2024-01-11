@@ -29,8 +29,6 @@ public class MarketDataCache {
 
         if (!cache.containsKey(key)) {
             cache.put(key, new MarketData(searchText, currency, autoRefresh));
-
-            logger.debug("Initializing new MarketData object for key: " + key);
         }
         return cache.get(key);
     }
