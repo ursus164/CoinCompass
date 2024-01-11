@@ -131,6 +131,6 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
-      <Button fx:id="refreshButton" focusTraversable="false" layoutX="469.0" layoutY="45.0" mnemonicParsing="false" onAction="#refreshData" prefHeight="5.0" prefWidth="60.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Refresh" />
+      <Button fx:id="refreshButton" focusTraversable="false" layoutX="460.0" layoutY="45.0" mnemonicParsing="false" onAction="#refreshData" prefHeight="23.0" prefWidth="69.0" styleClass="buttonClass" stylesheets="@../style/style.css" text="Refresh" />
    </children>
 </AnchorPane>

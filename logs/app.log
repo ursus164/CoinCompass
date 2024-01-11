@@ -1,1 +1,43 @@
-11-01-2024 22:28:07 [INFO] Main - Log file data has been cleared
+11-01-2024 22:29:08 [INFO] Main - Log file data has been cleared
+11-01-2024 22:29:17 [DEBUG] CurrencyList - Initializing CurrencyList class
+11-01-2024 22:29:17 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+11-01-2024 22:29:17 [INFO] CurrencyList - Sucesfully created list of supported currencies
+11-01-2024 22:29:26 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
+11-01-2024 22:29:26 [DEBUG] ApiClient - Response code: 200
+11-01-2024 22:29:26 [INFO] ApiClient - Connection established
+11-01-2024 22:29:26 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+11-01-2024 22:29:26 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+11-01-2024 22:29:26 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+11-01-2024 22:29:26 [INFO] MarketDataList - Successfully created list of MarketData objects
+11-01-2024 22:29:26 [INFO] MarketData - Market for identifier:eth found
+11-01-2024 22:29:26 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=eur&days=1
+11-01-2024 22:29:27 [DEBUG] ApiClient - Response code: 200
+11-01-2024 22:29:27 [INFO] ApiClient - Connection established
+11-01-2024 22:29:27 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
+11-01-2024 22:29:27 [DEBUG] MarketDataPoint - Initializing market chart for identifier: ethereum
+11-01-2024 22:29:27 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+11-01-2024 22:29:27 [INFO] MarketDataSeries - Successfully created chart points list
+11-01-2024 22:29:27 [DEBUG] CoinDataSceneController - Initializing chart for market: ethereum
+11-01-2024 22:29:27 [INFO] HistoryManager - History added for market: Ethereum
+11-01-2024 22:29:56 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: eth_eur_true
+11-01-2024 22:29:56 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=pl&precision=6
+11-01-2024 22:29:56 [DEBUG] ApiClient - Response code: 200
+11-01-2024 22:29:56 [INFO] ApiClient - Connection established
+11-01-2024 22:29:56 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_list_cache.json
+11-01-2024 22:29:56 [DEBUG] MarketData - Initializing MarketData for identifier: eth
+11-01-2024 22:29:56 [INFO] MarketDataList - Reading: src/cache/market_list_cache.json
+11-01-2024 22:29:56 [INFO] MarketDataList - Successfully created list of MarketData objects
+11-01-2024 22:29:56 [INFO] MarketData - Market for identifier:eth found
+11-01-2024 22:29:56 [INFO] ApiClient - Connecting to server by request: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=eur&days=1
+11-01-2024 22:29:56 [DEBUG] ApiClient - Response code: 200
+11-01-2024 22:29:56 [INFO] ApiClient - Connection established
+11-01-2024 22:29:56 [INFO] ApiClient - Data fetched and saved to cache: src/cache/market_chart_cache.json
+11-01-2024 22:29:56 [DEBUG] MarketDataPoint - Initializing market chart for identifier: ethereum
+11-01-2024 22:29:56 [INFO] MarketDataSeries - Reading: src/cache/market_chart_cache.json
+11-01-2024 22:29:56 [INFO] MarketDataSeries - Successfully created chart points list
+11-01-2024 22:29:56 [DEBUG] CoinDataSceneController - Initializing chart for market: ethereum
+11-01-2024 22:29:56 [INFO] HistoryManager - History added for market: Ethereum
+11-01-2024 22:30:00 [DEBUG] CurrencyList - Initializing CurrencyList class
+11-01-2024 22:30:00 [INFO] CurrencyList - Reading: src/cache/currency_list_cache.json
+11-01-2024 22:30:00 [INFO] CurrencyList - Sucesfully created list of supported currencies
+11-01-2024 22:30:00 [DEBUG] MarketDataCache - Deleting entry from cache corresponding with key: eth_eur_true
