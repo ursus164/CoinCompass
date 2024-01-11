@@ -94,7 +94,7 @@ public class MainSceneController {
                 CoinDataSceneController controller = loader.getController();
 
                 controller.setStage(stage);
-                controller.setSearchText(searchField.getText().toLowerCase());
+                controller.setSearchText(searchField.getText().toLowerCase());      // id, or symbol, or name of currency that is given to controller of CoinDataScene class
                 controller.setSelectedCurrency(currencyChoice.getValue());
                 controller.setAutoRefresh(true);
                 controller.setSelectedDays(chartChoice.getValue());
@@ -128,14 +128,13 @@ public class MainSceneController {
 
         currencyChoice.getItems().addAll(currencies);
         currencyChoice.setValue(CurrencySettings.getInstance().getSelectedCurrency());
-        System.out.println("Waluta z klasy CurrencySettings podczas initialize: " + CurrencySettings.getInstance().getSelectedCurrency());
         currencyChoice.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observableValue, String oldVal, String newVal) {
                 CurrencySettings.getInstance().setSelectedCurrency(newVal);
             }
         });
-        System.out.println("Waluta z klasy CurrencySettings podczas initialize ale przed metoda updateHistoryDisplay: " + CurrencySettings.getInstance().getSelectedCurrency());
+
         updateHistoryDisplay();
 
     }
@@ -144,7 +143,6 @@ public class MainSceneController {
      * Updates the display of the history of market data searches.
      */
     public void updateHistoryDisplay() {
-        System.out.println("Metoda updateHistoryDisplay waluta z klasy currencysettings: " + CurrencySettings.getInstance().getSelectedCurrency());
         List<MarketData> history = HistoryManager.getInstance().getHistory();
         if(history.size() > 0) {
             price_field1.setVisible(true);
@@ -183,7 +181,6 @@ public class MainSceneController {
      * @param triangle  The image view to display the market trend icon.
      */
     private void updateSlot(MarketData data, Label symbol, TextField price,ImageView icon,TextField percent,ImageView triangle) {
-
         Image image = new Image(data.getIconUrl());
 
         String trianglePath = null;
@@ -218,8 +215,5 @@ public class MainSceneController {
     }
     public void setSelectedCurrency(String currency) {
         this.selectedCurrency = currency;
-    }
-    public String getSelectedCurrency() {
-        return this.selectedCurrency;
     }
 }

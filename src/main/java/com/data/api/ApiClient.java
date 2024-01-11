@@ -48,8 +48,19 @@ public class  ApiClient {
                 } else if (responseCode == 200) {
                     logger.info("Connection established");
 
-                    BufferedWriter writer = getWriter(conn, cacheFile);
+                    BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+                    String inputLine;
+                    StringBuilder response = new StringBuilder();
+
+                    while ((inputLine = in.readLine()) != null) {
+                        response.append(inputLine);
+                    }
+                    in.close();
+
+                    BufferedWriter writer = new BufferedWriter(new FileWriter(cacheFile));
+                    writer.write(response.toString());
                     writer.close();
+
 
                     logger.info("Data fetched and saved to cache: " + cache);
                 } else {
@@ -64,29 +75,13 @@ public class  ApiClient {
     }
 
     /**
-     * Creates a BufferedWriter to write response from the HttpURLConnection to a cache file
+     * Shows alert when API connection limit has been exceeded.
+     * User has option to either retry fetching data or close application
      *
-     * @param conn          The HttpURLConnection object.
-     * @param cacheFile     The file to which the response is to be written.
-     * @return              A BufferedWriter to write the response.
-     * @throws IOException  If an I/O error occurs.
+     * @param link  URL link to fetch data
+     * @param cache Cache file path
+     * @param update    Flag indicating whether to fetch new data or not
      */
-    private static BufferedWriter getWriter(HttpURLConnection conn, File cacheFile) throws IOException {
-        // read
-        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-        String inputLine;
-        StringBuilder response = new StringBuilder();
-
-        while ((inputLine = in.readLine()) != null) {
-            response.append(inputLine);
-        }
-        in.close();
-        // write
-        BufferedWriter writer = new BufferedWriter(new FileWriter(cacheFile));
-        writer.write(response.toString());
-        return writer;
-    }
-
     private void showAlertRetry(String link, String cache, Boolean update) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("Błąd");
