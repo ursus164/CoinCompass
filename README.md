@@ -2,7 +2,7 @@
 
 CoinCompass is a JavaFX-based desktop application designed to provide real-time market data and analytics for cryptocurrencies. The application offers an intuitive interface for tracking market trends, prices, and historical data of various cryptocurrencies.
 
-It's my first "bigger" project that I've made in Java. So feel free to comment or suggest any improvements - it will be much appreciated!
+It's my first "bigger" project that I made in Java. So feel free to comment or suggest any improvements - it will be much appreciated!
 
 ## Important
 In this stage, If you want to launch te app, please do It via, main class found in GUI package. I have not packed project into .jar file.
