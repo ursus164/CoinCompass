@@ -59,15 +59,15 @@
       </Label>
       <TextField fx:id="UsernameField" layoutX="275.0" layoutY="184.0" prefHeight="26.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css" />
       <PasswordField fx:id="PasswordField" layoutX="275.0" layoutY="219.0" prefHeight="26.0" prefWidth="134.0" styleClass="favourites" stylesheets="@../style/style.css" />
-      <Label fx:id="InvalidLabel" layoutX="238.0" layoutY="253.0" prefHeight="18.0" prefWidth="170.0" text="Invalid username or  password!" textFill="#fa0000" visible="false" />
+      <Label fx:id="InvalidLabel" layoutX="68.0" layoutY="263.0" prefHeight="18.0" prefWidth="170.0" text="Invalid username or  password!" textFill="#fa0000" visible="false" />
       <Label layoutX="192.0" layoutY="131.0" prefHeight="26.0" prefWidth="219.0" text="Already have an account? Log In">
          <font>
             <Font name="Corbel" size="16.0" />
          </font>
       </Label>
-      <Label fx:id="AccountExists" layoutX="238.0" layoutY="253.0" prefHeight="18.0" prefWidth="170.0" text="Given username alreadu exists!" textFill="#fa0000" visible="false" />
-      <Label fx:id="SuccesfullRegister" layoutX="238.0" layoutY="253.0" prefHeight="18.0" prefWidth="170.0" text="Account created succesfully!" textFill="#08fa00" visible="false" />
-      <Label fx:id="PasswordsNotMatch" layoutX="238.0" layoutY="253.0" prefHeight="18.0" prefWidth="170.0" text="Given passwords don't match" textFill="#fa2300" visible="false" />
+      <Label fx:id="AccountExists" layoutX="353.0" layoutY="263.0" prefHeight="18.0" prefWidth="170.0" text="Given username alreadu exists!" textFill="#fa0000" visible="false" />
+      <Label fx:id="SuccesfullRegister" layoutX="353.0" layoutY="263.0" prefHeight="18.0" prefWidth="170.0" text="Account created succesfully!" textFill="#08fa00" visible="false" />
+      <Label fx:id="PasswordsNotMatch" layoutX="353.0" layoutY="263.0" prefHeight="18.0" prefWidth="170.0" text="Given passwords don't match" textFill="#fa2300" visible="false" />
       <Label alignment="CENTER" layoutX="24.0" layoutY="105.0" prefHeight="239.0" prefWidth="146.0" styleClass="squareBox" stylesheets="@../style/style.css">
          <font>
             <Font name="Corbel" size="34.0" />

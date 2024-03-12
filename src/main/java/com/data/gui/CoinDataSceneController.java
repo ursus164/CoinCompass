@@ -59,6 +59,7 @@ public class CoinDataSceneController {
      * It fetches data using MarketDataCache and updates UI components accordingly.
      */
     public void loadData() {
+        logger.info("Selected currency before loading: " + selectedCurrency);
         marketData = MarketDataCache.getMarketData(searchText, selectedCurrency, autoRefresh);
 
         crypto = marketData.getId();
@@ -96,6 +97,7 @@ public class CoinDataSceneController {
         low_24h_value.setText(Double.toString(marketData.getLow_24h()));
         triangle_symbol.setImage(triangleIcon);
 
+        HistoryManager.getInstance().addSearch(marketData);
     }
 
     /**
@@ -111,6 +113,10 @@ public class CoinDataSceneController {
 
         MainSceneController controller = loader.getController();
         controller.setSelectedCurrency(selectedCurrency);
+
+
+
+//        controller.updateHistoryDisplay();
         controller.setStage(stage);
 
         MarketDataCache.clearCacheFor(searchText, selectedCurrency, autoRefresh);
@@ -190,16 +196,16 @@ public class CoinDataSceneController {
      * @param event The event triggered by the user action.
      */
     public void refreshData(ActionEvent event) {
-        MarketDataCache.clearCacheFor(searchText, selectedCurrency, autoRefresh);
-        marketData = MarketDataCache.getMarketData(searchText, selectedCurrency, autoRefresh);
-        marketData.setCurrency(selectedCurrency);       // preventing null currency value in history
-
+        System.out.println("Metoda refreshData: " + CurrencySettings.getInstance().getSelectedCurrency());
+//        MarketDataCache.clearCacheFor(searchText, selectedCurrency, autoRefresh);
+        MarketData data = new MarketData(searchText, selectedCurrency, autoRefresh);
+        data.setCurrency(selectedCurrency);
         crypto = marketData.getId();
         chartCreate(selectedDays);
 
-        String formattedPrice = String.format("%.6f", marketData.getPrice_change_24h());
-        String formattedPercent = String.format("%.6f", marketData.getPrice_change_percentage_24h());
-        String currentPrice = String.format("%6f",marketData.getCurrent_price());
+        String formattedPrice = String.format("%.6f", data.getPrice_change_24h());
+        String formattedPercent = String.format("%.6f", data.getPrice_change_percentage_24h());
+        String currentPrice = String.format("%6f",data.getCurrent_price());
 
         String trianglePath = null;
 
@@ -210,26 +216,26 @@ public class CoinDataSceneController {
         }
 
         Image triangleIcon = new Image(trianglePath);
-        Image cryptoImage = new Image(marketData.getIconUrl());
+        Image cryptoImage = new Image(data.getIconUrl());
 
         String cryptoChange = formattedPrice + " (" + formattedPercent + "%)";
-        String price = currentPrice + " " + marketData.getCurrency();
-        String cryptoID = "Kurs " + marketData.getName() + " (" + marketData.getSymbol().toUpperCase() + ")";
-        String formattedMarket = String.format("%.1f", marketData.getMarket_cap());
+        String price = currentPrice + " " + selectedCurrency;
+        String cryptoID = "Kurs " + data.getName() + " (" + data.getSymbol().toUpperCase() + ")";
+        String formattedMarket = String.format("%.1f", data.getMarket_cap());
 
         CryptoSymbol.setImage(cryptoImage);
         crypto_id.setText(cryptoID);
         crypto_price.setText(price.toUpperCase());
         crypto_change.setText(cryptoChange);
-        ath_value.setText(Double.toString(marketData.getAth()));
-        atl_value.setText(Double.toString(marketData.getAtl()));
+        ath_value.setText(Double.toString(data.getAth()));
+        atl_value.setText(Double.toString(data.getAtl()));
         market_cap_value.setText(formattedMarket);
-        market_cap_rank_value.setText(Integer.toString( marketData.getMarket_cap_rank()));
-        high_24h_value.setText(Double.toString(marketData.getHigh_24h()));
-        low_24h_value.setText(Double.toString(marketData.getLow_24h()));
+        market_cap_rank_value.setText(Integer.toString(data.getMarket_cap_rank()));
+        high_24h_value.setText(Double.toString(data.getHigh_24h()));
+        low_24h_value.setText(Double.toString(data.getLow_24h()));
         triangle_symbol.setImage(triangleIcon);
 
-        HistoryManager.getInstance().addSearch(marketData);
+        HistoryManager.getInstance().addSearch(data);
     }
     public void setSelectedCurrency(String selectedCurrency) {
         this.selectedCurrency = selectedCurrency;
@@ -246,7 +252,6 @@ public class CoinDataSceneController {
     public void setStage(Stage stage) {
         this.stage = stage;
     }
-
 }
 
 

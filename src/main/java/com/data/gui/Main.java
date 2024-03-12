@@ -66,7 +66,7 @@ public class Main extends Application {
             introScene.getStylesheets().add(css);
 
             stage.getIcons().add(appIcon);
-            stage.setTitle("CoinCompass v0.0 by A.D");
+            stage.setTitle("CoinCompass v0.0");
 
             stage.setScene(introScene);
             stage.setResizable(false);

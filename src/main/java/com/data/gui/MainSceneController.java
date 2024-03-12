@@ -94,7 +94,7 @@ public class MainSceneController {
                 CoinDataSceneController controller = loader.getController();
 
                 controller.setStage(stage);
-                controller.setSearchText(searchField.getText().toLowerCase());      // id, or symbol, or name of currency that is given to controller of CoinDataScene class
+                controller.setSearchText(searchField.getText().toLowerCase());
                 controller.setSelectedCurrency(currencyChoice.getValue());
                 controller.setAutoRefresh(true);
                 controller.setSelectedDays(chartChoice.getValue());
@@ -134,7 +134,6 @@ public class MainSceneController {
                 CurrencySettings.getInstance().setSelectedCurrency(newVal);
             }
         });
-
         updateHistoryDisplay();
 
     }
@@ -143,6 +142,7 @@ public class MainSceneController {
      * Updates the display of the history of market data searches.
      */
     public void updateHistoryDisplay() {
+
         List<MarketData> history = HistoryManager.getInstance().getHistory();
         if(history.size() > 0) {
             price_field1.setVisible(true);
@@ -181,6 +181,7 @@ public class MainSceneController {
      * @param triangle  The image view to display the market trend icon.
      */
     private void updateSlot(MarketData data, Label symbol, TextField price,ImageView icon,TextField percent,ImageView triangle) {
+
         Image image = new Image(data.getIconUrl());
 
         String trianglePath = null;
@@ -215,5 +216,8 @@ public class MainSceneController {
     }
     public void setSelectedCurrency(String currency) {
         this.selectedCurrency = currency;
+    }
+    public String getSelectedCurrency() {
+        return this.selectedCurrency;
     }
 }

@@ -48,19 +48,8 @@ public class  ApiClient {
                 } else if (responseCode == 200) {
                     logger.info("Connection established");
 
-                    BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-                    String inputLine;
-                    StringBuilder response = new StringBuilder();
-
-                    while ((inputLine = in.readLine()) != null) {
-                        response.append(inputLine);
-                    }
-                    in.close();
-
-                    BufferedWriter writer = new BufferedWriter(new FileWriter(cacheFile));
-                    writer.write(response.toString());
+                    BufferedWriter writer = getWriter(conn, cacheFile);
                     writer.close();
-
 
                     logger.info("Data fetched and saved to cache: " + cache);
                 } else {
@@ -75,21 +64,37 @@ public class  ApiClient {
     }
 
     /**
-     * Shows alert when API connection limit has been exceeded.
-     * User has option to either retry fetching data or close application
+     * Creates a BufferedWriter to write response from the HttpURLConnection to a cache file
      *
-     * @param link  URL link to fetch data
-     * @param cache Cache file path
-     * @param update    Flag indicating whether to fetch new data or not
+     * @param conn          The HttpURLConnection object.
+     * @param cacheFile     The file to which the response is to be written.
+     * @return              A BufferedWriter to write the response.
+     * @throws IOException  If an I/O error occurs.
      */
+    private static BufferedWriter getWriter(HttpURLConnection conn, File cacheFile) throws IOException {
+        // read
+        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+        String inputLine;
+        StringBuilder response = new StringBuilder();
+
+        while ((inputLine = in.readLine()) != null) {
+            response.append(inputLine);
+        }
+        in.close();
+        // write
+        BufferedWriter writer = new BufferedWriter(new FileWriter(cacheFile));
+        writer.write(response.toString());
+        return writer;
+    }
+
     private void showAlertRetry(String link, String cache, Boolean update) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("Błąd");
-        alert.setHeaderText("Przekroczono limit połączeń API");
-        alert.setContentText("Czy chcesz spróbować ponownie?");
+        alert.setTitle("Error");
+        alert.setHeaderText("Your free API key connection limit has been exceeded.");
+        alert.setContentText("Do you want to retry?");
 
-        ButtonType retryButton = new ButtonType("Spróbuj ponownie");
-        ButtonType closeButton = new ButtonType("Zamknij aplikację");
+        ButtonType retryButton = new ButtonType("Retry");
+        ButtonType closeButton = new ButtonType("Close");
 
         alert.getButtonTypes().setAll(retryButton,closeButton);
 
