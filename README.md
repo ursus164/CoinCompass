@@ -14,7 +14,7 @@ In this stage, If you want to launch the app, please do It via, main class found
 2. **Build the Project**:
    Navigate to the project directory in your IDE, then find GUI package and class "Main". Simply click "build" button.
 
-   ## Usage
+## Usage
 In this version app is using free CoinGecko Api key. So there is the query limit for the server. If you have your own API key and want to use it, you will have to individually change that in classes responsible for fetching market data and charts. In the future update, I will add option to simply type in private key, and all the neccessary changes in the source code will be done automatically.
 
 ## Contributing
