@@ -12,7 +12,7 @@ In this stage, If you want to launch te app, please do It via, main class found 
    git clone https://github.com/your-username/CoinCompass.git
 
 2. **Build the Project**:
-   Navigate to the project directory, then find GUI package and class "Main". Simply click "build" button.
+   Navigate to the project directory in your IDE, then find GUI package and class "Main". Simply click "build" button.
 
    ## Usage
 In this version app is using free CoinGecko Api key. So there is the query limit for the server. If you have your own API key and want to use it, you will have to individually  change that in API class responsible for fetching data.
