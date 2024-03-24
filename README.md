@@ -8,7 +8,8 @@ It's my first "bigger" project that I've made in Java - it is a development-vers
 ### Please note that login policy does not containt any backend
 ![image](https://github.com/ursus164/CoinCompass/assets/101526933/b9bae52b-caba-4cae-960b-56f1df8abd57)
 
-![image](https://github.com/ursus164/CoinCompass/assets/101526933/20e4c831-91cb-40de-af87-fc5a33e57f74)
+![image](https://github.com/ursus164/CoinCompass/assets/101526933/83926d9f-1d41-4570-b54b-f862c084e26c)
+
 
 ![image](https://github.com/ursus164/CoinCompass/assets/101526933/0f8041e4-93ee-4616-bff7-68d8a53c0486)
 
